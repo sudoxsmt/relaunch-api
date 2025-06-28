@@ -27,8 +27,8 @@ BF-MARU
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
-getgenv().Key = "MARU-AI01Q-MIM6-1EXVC-5CG3-PLBBA"
-getgenv().id = "262192215152001034"
+getgenv().Key = ""
+getgenv().id = ""
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sudoxsmt/relaunch-api/refs/heads/main/maru-kaitun.lua"))()
 ```
 
