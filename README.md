@@ -32,3 +32,12 @@ getgenv().id = ""
 loadstring(game:HttpGet("https://raw.githubusercontent.com/sudoxsmt/relaunch-api/refs/heads/main/maru-kaitun.lua"))()
 ```
 
+Xenon
+
+```lua
+repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game.Players
+repeat task.wait() until game.Players.LocalPlayer
+getgenv().key = {}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/sudoxsmt/relaunch-api/refs/heads/main/xenon'))()
+```
