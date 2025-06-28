@@ -103,6 +103,7 @@ getgenv().Configuration = {
         "Sea Turtle",
         "Orangutan",
         "Seal",
+	"Mooncat",
     },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
@@ -139,7 +140,7 @@ getgenv().Configuration = {
 	MaxCropInFarm = 200,
     OpenFlowerSeedPack = 1,
     WEBHOOK_URL = "https://discord.com/api/webhooks/1323680769163526174/E1XSlqfUe3YUHWmMlCIiKTVtyqN4uZ1yRYqED5qTaoQqpS6PJTMap404rbBg-Sg50DMl", -- Webhook ที่จะส่งไปที่ Discord
-    NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Toucan"},
+    NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
 
     COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
         { Money = 1000000, Minutes = 3 },
