@@ -1,0 +1,149 @@
+repeat task.wait() until game:IsLoaded()
+repeat task.wait() until game.Players
+repeat task.wait() until game.Players.LocalPlayer
+task.wait(20) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
+getgenv().Configuration = {
+    SEEDS = { -- กำหนด Seed ที่ต้องการให้ Farm
+        "Carrot",
+        "Green Apple",
+        "Avacado",
+        "Banana",
+        "Pineapple",
+        "Kiwi",
+        "Bell Pepper",
+        "Prickly Pear",
+        "Loquat",
+        "Feijoa",
+        "Sugar Apple",
+    },
+    BuySeed = { -- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
+        "Carrot",
+        "Green Apple",
+        "Avacado",
+        "Banana",
+        "Pineapple",
+        "Kiwi",
+        "Bell Pepper",
+        "Prickly Pear",
+        "Loquat",
+        "Feijoa",
+        "Sugar Apple",
+    },
+    EGG = { -- กำหนด Egg ที่ต้องการให้ Farm
+        "Legendary Egg",
+        "Mythical Egg",
+        "Bug Egg",
+        "Night Egg",
+        "Bee Egg",
+        "Anti Bee Egg",
+        "Paradise Egg",
+        "Oasis Egg",
+        "Rare Summer Egg"
+    },
+    BUYEGG = { -- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
+        "Bug Egg",
+        "Night Egg",
+        "Bee Egg",
+        "Anti Bee Egg",
+        "Paradise Egg",
+        "Oasis Egg",
+        "Rare Summer Egg"
+    },
+    PET_NAME = { -- กำหนกดชื่อ pet ที่ต้องการนำใส่ฟาร๋ม
+        "Chicken",
+        "Rooster",
+        "Kiwi",
+        "Blood Kiwi",
+    },
+    PETTOUPGRADE = { -- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
+        "Rooster",
+        "Chicken",
+        "Kiwi",
+    },
+    SELL_PET = {
+        -- กำหนดชื่อ pet ที่ต้องการขาย
+        "Chicken",
+        "Rooster",
+        "Kiwi",
+        "Blood Kiwi",
+        "Dog",
+        "Golden Lab",
+        "Bunny",
+        "Black Bunny",
+        "Cat",
+        "Orange Tabby",
+        "Deer",
+        "Spotted Deer",
+        "Monkey",
+        "Silver Monkey",
+        "Pig",
+        "Turtle",
+        "Cow",
+        "Polar Bear",
+        "Panda",
+        "Sea Otter",
+        "Hedgehog",
+        "Mole",
+        "Frog",
+        "Grey Mouse",
+        "Brown Mouse",
+        "Red Giant Ant",
+        "Bee",
+        "Honey Bee",
+        "Wasp",
+        "Tarantula Hawk",
+        "Moth",
+        "Ostrich",
+        "Peacock",
+        "Capybara",
+        "Meerkat",
+        "Sand Snake",
+        "Axolotl",
+        "Flamingo",
+        "Sea Turtle",
+        "Orangutan",
+        "Seal",
+    },
+    BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
+        "Godly Sprinkler",
+        "Master Sprinkler",
+    },
+	Craft_Event = { -- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
+        { Name = "Crafters Seed Pack", Amount = 20 },
+        { Name = "Anti Bee Egg", Amount = 5 },
+        { Name = "Honeysuckle", Amount = 5 },
+    },
+    EVENTSHOP = { -- กำหนดชื่อ Event ที่ต้องการทำ
+        { Name = "Summer Seed Pack", Amount = 2 },
+        { Name = "Oasis Egg", Amount = 2 },
+    },
+
+    SummerEvent = true,
+
+    SELL_PET_MIN_COUNT = 2, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
+    SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
+
+	OpenEgg = true, -- true/false เปิด Auto Open Egg
+    PlaceEgg = true, -- true/false เปิด Auto Place Egg
+    BuyEgg = true, -- true/false เปิด Auto Buy Egg
+    UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
+    UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
+
+    AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
+    AutoEvent = true, -- true/false เปิด ส่ง Event
+    AutoFavEvent = true, -- true/false เปิด Auto Fav Event
+    OPEN_SEEDPACK = true, -- true/false เปิด Night Seed Pack
+
+    MoneyEnough = 5000000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
+    Fpsboost = true, -- true/false เปิด Fpsboost
+	MaxCropInFarm = 200,
+    OpenFlowerSeedPack = 1,
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1323680769163526174/E1XSlqfUe3YUHWmMlCIiKTVtyqN4uZ1yRYqED5qTaoQqpS6PJTMap404rbBg-Sg50DMl", -- Webhook ที่จะส่งไปที่ Discord
+    NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Toucan"},
+
+    COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
+        { Money = 1000000, Minutes = 3 },
+        { Money = 0, Minutes = 0 },
+    },
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a30dea03b26012f29a97cd81cda4083a.lua"))()
