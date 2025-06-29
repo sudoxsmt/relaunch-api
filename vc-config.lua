@@ -109,6 +109,8 @@ getgenv().Configuration = {
 	"Frog",
 	"Echo Frog",
 	"Night Owl",
+	"Petal Bee",
+	"Bear Bee",
     },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
@@ -126,7 +128,7 @@ getgenv().Configuration = {
 
     SummerEvent = true,
 
-    SELL_PET_MIN_COUNT = 2, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
+    SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
     SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
 
 	OpenEgg = true, -- true/false เปิด Auto Open Egg
