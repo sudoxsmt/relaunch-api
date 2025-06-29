@@ -104,6 +104,11 @@ getgenv().Configuration = {
         "Orangutan",
         "Seal",
 	"Mooncat",
+	"Hedgehog",
+	"Mole",
+	"Frog",
+	"Echo Frog",
+	"Night Owl",
     },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
