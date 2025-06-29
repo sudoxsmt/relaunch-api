@@ -38,7 +38,8 @@ getgenv().Configuration = {
         "Anti Bee Egg",
         "Paradise Egg",
         "Oasis Egg",
-        "Rare Summer Egg"
+        "Rare Summer Egg",
+	"Uncommon Egg",
     },
     BUYEGG = { -- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
         "Bug Egg",
@@ -47,7 +48,8 @@ getgenv().Configuration = {
         "Anti Bee Egg",
         "Paradise Egg",
         "Oasis Egg",
-        "Rare Summer Egg"
+        "Rare Summer Egg",
+	"Uncommon Egg",
     },
     PET_NAME = { -- กำหนกดชื่อ pet ที่ต้องการนำใส่ฟาร๋ม
         "Chicken",
