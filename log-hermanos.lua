@@ -20,7 +20,7 @@ if game.PlaceId == gagId then
         ['key'] = var1,
         ['PC'] = var2,
         ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle"},
-        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Toucan"},
+        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Toucan","Hyacinth Macaw"},
         ['Gears'] = {"Master Sprinkler"},
         ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg"}
 
