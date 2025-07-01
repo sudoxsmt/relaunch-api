@@ -114,6 +114,7 @@ getgenv().Configuration = {
 	"Petal Bee",
 	"Bear Bee",
 	"Toucan",
+	"Hyacinth Macaw",
     },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
