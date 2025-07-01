@@ -56,6 +56,7 @@ getgenv().Configuration = {
         "Rooster",
         "Kiwi",
         "Blood Kiwi",
+	"Capybara",
     },
     PETTOUPGRADE = { -- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
         "Rooster",
