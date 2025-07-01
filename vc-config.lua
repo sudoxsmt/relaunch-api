@@ -123,9 +123,9 @@ getgenv().Configuration = {
         "Master Sprinkler",
     },
 	Craft_Event = { -- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
+	{ Name = "Honeysuckle", Amount = 5 },
         { Name = "Crafters Seed Pack", Amount = 20 },
         { Name = "Anti Bee Egg", Amount = 5 },
-        { Name = "Honeysuckle", Amount = 5 },
     },
     EVENTSHOP = { -- กำหนดชื่อ Event ที่ต้องการทำ
         { Name = "Summer Seed Pack", Amount = 2 },
@@ -137,7 +137,7 @@ getgenv().Configuration = {
     SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
     SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
 
-	OpenEgg = true, -- true/false เปิด Auto Open Egg
+    OpenEgg = true, -- true/false เปิด Auto Open Egg
     PlaceEgg = true, -- true/false เปิด Auto Place Egg
     BuyEgg = true, -- true/false เปิด Auto Buy Egg
     UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
@@ -150,9 +150,9 @@ getgenv().Configuration = {
 
     MoneyEnough = 5000000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
     Fpsboost = true, -- true/false เปิด Fpsboost
-	MaxCropInFarm = 200,
+    MaxCropInFarm = 250,
     OpenFlowerSeedPack = 1,
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1323680769163526174/E1XSlqfUe3YUHWmMlCIiKTVtyqN4uZ1yRYqED5qTaoQqpS6PJTMap404rbBg-Sg50DMl", -- Webhook ที่จะส่งไปที่ Discord
+    WEBHOOK_URL = getgenv().DiscordHook, -- Webhook ที่จะส่งไปที่ Discord
     NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
 
     COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
