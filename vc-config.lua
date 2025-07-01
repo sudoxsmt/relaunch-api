@@ -105,7 +105,7 @@ getgenv().Configuration = {
         "Sea Turtle",
         "Orangutan",
         "Seal",
-	"Mooncat",
+	"Moon Cat",
 	"Hedgehog",
 	"Mole",
 	"Frog",
