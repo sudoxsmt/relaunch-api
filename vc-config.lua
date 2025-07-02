@@ -2,7 +2,6 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 task.wait(20) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
-local DiscordHook = getgenv().DiscordHook
 getgenv().Configuration = {
     SEEDS = { -- กำหนด Seed ที่ต้องการให้ Farm
         "Carrot",
@@ -158,7 +157,7 @@ getgenv().Configuration = {
     MaxCropInFarm = 250,
     OpenFlowerSeedPack = 1,
     CollectBatch = 15, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
-    WEBHOOK_URL = DiscordHook, -- Webhook ที่จะส่งไปที่ Discord
+    WEBHOOK_URL = getgenv().DiscordHook, -- Webhook ที่จะส่งไปที่ Discord
     NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
 
     COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
