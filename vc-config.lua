@@ -156,7 +156,7 @@ getgenv().Configuration = {
     Fpsboost = true, -- true/false เปิด Fpsboost
     MaxCropInFarm = 250,
     OpenFlowerSeedPack = 1,
-    CollectBatch = 15, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
+    CollectBatch = 10, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
     WEBHOOK_URL = getgenv().DiscordHook, -- Webhook ที่จะส่งไปที่ Discord
     NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
 
