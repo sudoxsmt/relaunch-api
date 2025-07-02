@@ -2,6 +2,7 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 task.wait(20) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
+local DiscordHook = getgenv().DiscordHook
 getgenv().Configuration = {
     SEEDS = { -- กำหนด Seed ที่ต้องการให้ Farm
         "Carrot",
@@ -58,12 +59,13 @@ getgenv().Configuration = {
         "Blood Kiwi",
 	"Capybara",
 	"Toucan",
-	"Ostrich"
+	"Ostrich",
     },
     PETTOUPGRADE = { -- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
         "Rooster",
         "Chicken",
         "Kiwi",
+	"Ostrich",
     },
     SELL_PET = {
         -- กำหนดชื่อ pet ที่ต้องการขาย
