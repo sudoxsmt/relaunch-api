@@ -157,7 +157,7 @@ getgenv().Configuration = {
     MaxCropInFarm = 250,
     OpenFlowerSeedPack = 1,
     CollectBatch = 10, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1323680769163526174/E1XSlqfUe3YUHWmMlCIiKTVtyqN4uZ1yRYqED5qTaoQqpS6PJTMap404rbBg-Sg50DMl", -- Webhook ที่จะส่งไปที่ Discord
+    WEBHOOK_URL = getgenv().Discord , -- Webhook ที่จะส่งไปที่ Discord
     NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
 
     COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
