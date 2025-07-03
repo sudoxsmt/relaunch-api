@@ -165,4 +165,5 @@ getgenv().Configuration = {
         { Money = 0, Minutes = 0 },
     },
 }
+getgenv().Configuration.WEBHOOK_URL = getgenv().Discord
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a30dea03b26012f29a97cd81cda4083a.lua"))()
