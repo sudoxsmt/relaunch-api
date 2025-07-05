@@ -40,6 +40,7 @@ getgenv().Configuration = {
         "Oasis Egg",
         "Rare Summer Egg",
 	"Uncommon Egg",
+	"Dinosaur Egg",
     },
     BUYEGG = { -- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
         "Bug Egg",
@@ -120,6 +121,10 @@ getgenv().Configuration = {
 	"Bear Bee",
 	"Toucan",
 	"Hyacinth Macaw",
+	"Pterodactyl",
+	"Triceratops",
+	"Raptor",
+	"Stegosaurus",
     },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
@@ -158,12 +163,11 @@ getgenv().Configuration = {
     OpenFlowerSeedPack = 1,
     CollectBatch = 10, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
     WEBHOOK_URL = getgenv().Discord , -- Webhook ที่จะส่งไปที่ Discord
-    NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox"},
+    NOTIFY_PETS = { "Dragonfly", "Raccoon", "Queen Bee","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","T-Rex"},
 
     COLLECT_MINUTES = { -- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
         { Money = 1000000, Minutes = 3 },
         { Money = 0, Minutes = 0 },
     },
 }
-getgenv().Configuration.WEBHOOK_URL = getgenv().Discord
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a30dea03b26012f29a97cd81cda4083a.lua"))()
