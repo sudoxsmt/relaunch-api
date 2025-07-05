@@ -5,7 +5,7 @@ repeat task.wait() until game.Players.LocalPlayer
 local gagId = 126884695634066
 
 if game.PlaceId == gagId then
-  task.wait(30)
+  task.wait(35)
   local player = game:GetService("Players").LocalPlayer
   local backpack = player:WaitForChild("Backpack")
   local replicatedStorage = game:GetService("ReplicatedStorage")
