@@ -200,7 +200,6 @@ getgenv().Configuration = {
 	EVENTSHOP = {
 		-- กำหนดชื่อ Event ที่ต้องการทำ
 		{ Name = "Summer Seed Pack", Amount = 2 },
-		{ Name = "Crafters Seed Pack", Amount = 5 },
 		{ Name = "Oasis Egg", Amount = 2 },
 	},
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
