@@ -197,8 +197,6 @@ getgenv().Configuration = {
         { Name = "Oasis Egg", Amount = 2 },
     },
 
-    SummerEvent = true,
-
     SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
     SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
     SELL_PET_KEEP_WEIGHT = 10, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet ตามน้ำหนัก
