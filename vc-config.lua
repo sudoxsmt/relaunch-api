@@ -126,11 +126,68 @@ getgenv().Configuration = {
 	"Raptor",
 	"Stegosaurus",
     },
+    PetDino = { -- กำหนดชื่อ Pet ที่ต้องการใช้ในการ Evo
+        "Chicken",
+        "Rooster",
+        "Kiwi",
+        "Blood Kiwi",
+        "Dog",
+        "Golden Lab",
+        "Bunny",
+        "Black Bunny",
+        "Cat",
+        "Orange Tabby",
+        "Deer",
+        "Spotted Deer",
+        "Monkey",
+        "Silver Monkey",
+        "Pig",
+        "Turtle",
+        "Cow",
+        "Polar Bear",
+        "Panda",
+        "Sea Otter",
+        "Hedgehog",
+        "Mole",
+        "Frog",
+        "Grey Mouse",
+        "Brown Mouse",
+        "Red Giant Ant",
+        "Bee",
+        "Honey Bee",
+        "Wasp",
+        "Tarantula Hawk",
+        "Moth",
+        "Ostrich",
+        "Peacock",
+        "Capybara",
+        "Meerkat",
+        "Sand Snake",
+        "Axolotl",
+        "Flamingo",
+        "Sea Turtle",
+        "Orangutan",
+        "Seal",
+	"Moon Cat",
+	"Hedgehog",
+	"Mole",
+	"Frog",
+	"Echo Frog",
+	"Night Owl",
+	"Petal Bee",
+	"Bear Bee",
+	"Toucan",
+	"Hyacinth Macaw",
+	"Pterodactyl",
+	"Triceratops",
+	"Raptor",
+	"Stegosaurus",
+    },
     BUY_GEAR = { -- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
         "Godly Sprinkler",
         "Master Sprinkler",
     },
-	Craft_Event = { -- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
+    Craft_Event = { -- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
 	{ Name = "Honeysuckle", Amount = 5 },
         { Name = "Crafters Seed Pack", Amount = 20 },
         { Name = "Anti Bee Egg", Amount = 5 },
@@ -149,8 +206,10 @@ getgenv().Configuration = {
     OpenEgg = true, -- true/false เปิด Auto Open Egg
     PlaceEgg = true, -- true/false เปิด Auto Place Egg
     BuyEgg = true, -- true/false เปิด Auto Buy Egg
+
     UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
     UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
+    UpgradePetInventory = false, -- true/false เปิด Auto Upgrade Pet Inventory
 
     AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
     AutoEvent = true, -- true/false เปิด ส่ง Event
