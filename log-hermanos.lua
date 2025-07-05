@@ -19,10 +19,10 @@ if game.PlaceId == gagId then
     getgenv().Hermanos_Settings = {
         ['key'] = var1,
         ['PC'] = var2,
-        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle"},
-        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Capybara","Toucan"},
+        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom"},
+        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Capybara","Toucan","T-Rex"},
         ['Gears'] = {"Master Sprinkler"},
-        ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg"}
+        ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg","Dinosaur Egg"}
 
     }
     task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/gag-main.lua'))() end)
