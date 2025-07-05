@@ -2,4 +2,4 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 
-print("reserver for third script")
+print("reserve for third script")
