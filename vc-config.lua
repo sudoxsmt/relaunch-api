@@ -44,6 +44,7 @@ getgenv().Configuration = {
 		"Rare Summer Egg",
 		"Uncommon Egg",
 		"Dinosaur Egg",
+		"Common Egg",
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
@@ -55,6 +56,7 @@ getgenv().Configuration = {
 		"Oasis Egg",
 		"Rare Summer Egg",
 		"Uncommon Egg",
+		"Common Egg",
 	},
 	PET_NAME = {
 		-- กำหนกดชื่อ pet ที่ต้องการนำใส่ฟาร๋ม
@@ -190,6 +192,10 @@ getgenv().Configuration = {
 		"Bear Bee",
 		"Toucan",
 		"Hyacinth Macaw",
+		"Pterodactyl",
+		"Triceratops",
+		"Raptor",
+		"Stegosaurus",
 	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
