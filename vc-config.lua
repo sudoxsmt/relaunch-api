@@ -43,7 +43,6 @@ getgenv().Configuration = {
 		"Oasis Egg",
 		"Rare Summer Egg",
 		"Uncommon Egg",
-		"Dinosaur Egg",
 		"Common Egg",
 	},
 	BUYEGG = {
