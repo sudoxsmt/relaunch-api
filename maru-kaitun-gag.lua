@@ -161,10 +161,6 @@ _G.Settings = {
         		"Bear Bee",
         		"Toucan",
         		"Hyacinth Macaw",
-        		"Pterodactyl",
-        		"Triceratops",
-        		"Raptor",
-        		"Stegosaurus",
         },
         Equip = {
             "Chicken",
@@ -235,10 +231,6 @@ _G.Settings = {
         		"Bear Bee",
         		"Toucan",
         		"Hyacinth Macaw",
-        		"Pterodactyl",
-        		"Triceratops",
-        		"Raptor",
-        		"Stegosaurus",
         }
     },
     GearStocksBuy = {
