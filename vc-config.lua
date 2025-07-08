@@ -191,10 +191,6 @@ getgenv().Configuration = {
 		"Bear Bee",
 		"Toucan",
 		"Hyacinth Macaw",
-		"Pterodactyl",
-		"Triceratops",
-		"Raptor",
-		"Stegosaurus",
 	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
