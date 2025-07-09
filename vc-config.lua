@@ -19,6 +19,9 @@ getgenv().Configuration = {
 		"Grape",
 		"Sugar Apple",
 		"Burning Bud",
+		"Firefly Fern",
+		"Boneboo",
+		"Horned Dinoshroom"
 	},
 	BuySeed = {
 		-- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
@@ -230,6 +233,7 @@ getgenv().Configuration = {
 		"Mimic Octopus",
 		"Fennec Fox",
 		"T-Rex",
+		"Brontosaurus"
 	},
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
