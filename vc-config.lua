@@ -218,7 +218,7 @@ getgenv().Configuration = {
 	AutoEvent = true, -- true/false เปิด ส่ง Event
 	AutoFavEvent = true, -- true/false เปิด Auto Fav Event
 	OPEN_SEEDPACK = true, -- true/false เปิด Night Seed Pack
-	MoneyEnough = 5000000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
+	MoneyEnough = 1000000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
 	Fpsboost = true, -- true/false เปิด Fpsboost
 	MaxCropInFarm = 150,
 	OpenFlowerSeedPack = 1,
@@ -237,7 +237,7 @@ getgenv().Configuration = {
 	},
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
-		{ Money = 1000000, Minutes = 2 },
+		{ Money = 5000000, Minutes = 2 },
 		{ Money = 0, Minutes = 0 },
 	},
 }
