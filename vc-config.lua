@@ -68,7 +68,6 @@ getgenv().Configuration = {
 		"Kiwi",
 		"Blood Kiwi",
 		"Capybara",
-		"Toucan",
 		"Ostrich",
 	},
 	PETTOUPGRADE = {
