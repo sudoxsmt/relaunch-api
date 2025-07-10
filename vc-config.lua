@@ -47,7 +47,7 @@ getgenv().Configuration = {
 		"Rare Summer Egg",
 		"Uncommon Egg",
 		"Common Egg",
-		-- "Dinosaur Egg"
+		"Dinosaur Egg"
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
