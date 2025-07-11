@@ -21,7 +21,9 @@ getgenv().Configuration = {
 		"Burning Bud",
 		"Firefly Fern",
 		"Boneboo",
-		"Horned Dinoshroom"
+		"Horned Dinoshroom",
+		"Orange Tulip",
+		"Daffodil"
 	},
 	BuySeed = {
 		-- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
@@ -33,6 +35,8 @@ getgenv().Configuration = {
 		"Grape",
 		"Sugar Apple",
 		"Burning Bud",
+		"Orange Tulip",
+		"Daffodil"
 	},
 	EGG = {
 		-- กำหนด Egg ที่ต้องการให้ Farm
