@@ -151,6 +151,9 @@ getgenv().Configuration = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
 		"Godly Sprinkler",
 		"Master Sprinkler",
+		"Medium Toy",
+		"Medium Treat",
+		"Levelup Lollipop",
 	},
 	PetDino = {
 		-- กำหนดชื่อ Pet ที่ต้องการใช้ในการ Evo
