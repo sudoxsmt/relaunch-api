@@ -214,6 +214,7 @@ getgenv().Configuration = {
 		{ Name = "Summer Seed Pack", Amount = 2 },
 		{ Name = "Oasis Egg", Amount = 2 },
 	},
+	TakeAncientPlant = true,
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
 	SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
 	SELL_PET_KEEP_WEIGHT = 8, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet ตามน้ำหนัก
