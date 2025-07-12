@@ -22,6 +22,8 @@ getgenv().Configuration = {
 		"Firefly Fern",
 		"Boneboo",
 		"Horned Dinoshroom",
+		"Stonebite",
+		"Paradise Petal",
 		"Orange Tulip",
 		"Daffodil",
 		"Mango",
