@@ -57,7 +57,8 @@ getgenv().Configuration = {
 		"Rare Summer Egg",
 		"Uncommon Egg",
 		"Common Egg",
-		"Dinosaur Egg"
+		"Dinosaur Egg",
+		"Primal Egg"
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
@@ -79,7 +80,9 @@ getgenv().Configuration = {
 		"Blood Kiwi",
 		"Capybara",
 		"Ostrich",
-		"Brontosaurus"
+		"Brontosaurus",
+		"Ankylosaurus",
+		"Iguanodon"
 	},
 	PETTOUPGRADE = {
 		-- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
@@ -146,6 +149,10 @@ getgenv().Configuration = {
 		"Triceratops",
 		"Raptor",
 		"Stegosaurus",
+		"Ankylosaurus",
+		"Pachycephalosaurus",
+		"Iguanodon",
+		"Parasaurolophus"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
@@ -248,7 +255,8 @@ getgenv().Configuration = {
 		"Mimic Octopus",
 		"Fennec Fox",
 		"T-Rex",
-		"Brontosaurus"
+		"Brontosaurus",
+		"Spinosaurus"
 	},
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
