@@ -17,7 +17,7 @@ if game.PlaceId == gagId then
   task.wait(30)
   _G.Config = { 
 		UserID = getgenv().UserID , 
-		discord_id = getgenv().Discord , 
+		discord_id = getgenv().DiscordId , 
 		Note = getgenv().Note, 
   } 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/gag"))()
