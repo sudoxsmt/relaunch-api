@@ -14,6 +14,7 @@ local gagId = 126884695634066
 local bfList = {2753915549, 4442272183, 7449423635}
 
 if game.PlaceId == gagId then
+  task.wait(35)
   _G.Config = { 
 		UserID = getgenv().UserID , 
 		discord_id = getgenv().DiscordId , 
