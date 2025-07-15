@@ -82,7 +82,8 @@ getgenv().Configuration = {
 		"Ostrich",
 		"Brontosaurus",
 		"Ankylosaurus",
-		"Iguanodon"
+		"Iguanodon",
+		"Dilophosaurus"
 	},
 	PETTOUPGRADE = {
 		-- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
