@@ -22,8 +22,6 @@ local function safeRequestFriendship(player)
             if not LocalPlayer:IsFriendsWith(player.UserId) then
                 LocalPlayer:RequestFriendship(player)
                 print("[+] Friend request sent to: " .. player.Name)
-            else
-                print("[=] Already friends with: " .. player.Name)
             end
         end
     end)
