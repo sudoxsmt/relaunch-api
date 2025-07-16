@@ -30,7 +30,7 @@ end
 local function processAllPlayers()
     for _, player in ipairs(Players:GetPlayers()) do
         safeRequestFriendship(player)
-        task.wait(0.3) -- faster but adjustable
+        task.wait(5) -- faster but adjustable
     end
 end
 
