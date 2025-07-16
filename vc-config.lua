@@ -82,7 +82,6 @@ getgenv().Configuration = {
 		"Ostrich",
 		"Brontosaurus",
 		"Ankylosaurus",
-		"Iguanodon",
 		"Dilophosaurus"
 	},
 	PETTOUPGRADE = {
@@ -94,6 +93,7 @@ getgenv().Configuration = {
 		"Blood Kiwi",
 		"Iguanodon",
 		"Ankylosaurus",
+		"Dilophosaurus",
 	},
 	SELL_PET = {
 		-- กำหนดชื่อ pet ที่ต้องการขาย
