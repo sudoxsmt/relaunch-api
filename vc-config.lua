@@ -155,7 +155,9 @@ getgenv().Configuration = {
 		"Ankylosaurus",
 		"Pachycephalosaurus",
 		"Iguanodon",
-		"Parasaurolophus"
+		"Parasaurolophus",
+		"Caterpillar",
+		"Snail"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
@@ -218,6 +220,8 @@ getgenv().Configuration = {
 		"Bear Bee",
 		"Toucan",
 		"Hyacinth Macaw",
+		"Caterpillar",
+		"Snail"
 	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
