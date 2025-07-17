@@ -15,6 +15,7 @@ getgenv().Configuration = {
 		"Bamboo",
 		"Mushroom",
 		"Cacao",
+		"Dragon Fruit",
 		"Beanstalk",
 		"Grape",
 		"Sugar Apple",
@@ -34,6 +35,7 @@ getgenv().Configuration = {
 		"Carrot",
 		"Bamboo",
 		"Mushroom",
+		"Dragon Fruit",
 		"Cacao",
 		"Beanstalk",
 		"Grape",
@@ -266,7 +268,6 @@ getgenv().Configuration = {
 		"Mimic Octopus",
 		"Fennec Fox",
 		"T-Rex",
-		"Brontosaurus",
 		"Spinosaurus"
 	},
 	COLLECT_MINUTES = {
