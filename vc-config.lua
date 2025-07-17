@@ -58,6 +58,7 @@ getgenv().Configuration = {
 		"Common Egg",
 		"Dinosaur Egg",
 		"Primal Egg",
+		"Rare Egg"
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
@@ -69,6 +70,7 @@ getgenv().Configuration = {
 		"Oasis Egg",
 		"Uncommon Egg",
 		"Common Egg",
+		"Rare Egg"
 	},
 	PET_NAME = {
 		-- กำหนกดชื่อ pet ที่ต้องการนำใส่ฟาร๋ม
