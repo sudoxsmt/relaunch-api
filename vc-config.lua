@@ -157,7 +157,9 @@ getgenv().Configuration = {
 		"Iguanodon",
 		"Parasaurolophus",
 		"Caterpillar",
-		"Snail"
+		"Snail",
+		"Giant Ant",
+		"Praying Mantis"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
@@ -221,7 +223,9 @@ getgenv().Configuration = {
 		"Toucan",
 		"Hyacinth Macaw",
 		"Caterpillar",
-		"Snail"
+		"Snail",
+		"Giant Ant",
+		"Praying Mantis"
 	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
