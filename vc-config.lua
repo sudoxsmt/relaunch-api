@@ -84,7 +84,8 @@ getgenv().Configuration = {
 		"Ostrich",
 		"Brontosaurus",
 		"Ankylosaurus",
-		"Dilophosaurus"
+		"Dilophosaurus",
+		"Capybara"
 	},
 	PETTOUPGRADE = {
 		-- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
@@ -96,6 +97,7 @@ getgenv().Configuration = {
 		"Iguanodon",
 		"Ankylosaurus",
 		"Dilophosaurus",
+		"Capybara",
 	},
 	SELL_PET = {
 		-- กำหนดชื่อ pet ที่ต้องการขาย
@@ -243,7 +245,7 @@ getgenv().Configuration = {
 	OpenEgg = true, -- true/false เปิด Auto Open Egg
 	PlaceEgg = true, -- true/false เปิด Auto Place Egg
 	BuyEgg = true, -- true/false เปิด Auto Buy Egg
-	UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
+	UpgradePetSlot = false, -- true/false เปิด Auto Upgrade Pet Slot
 	UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
 	UpgradePetInventory = false, -- true/false เปิด Auto Upgrade Pet Inventory
 	AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
