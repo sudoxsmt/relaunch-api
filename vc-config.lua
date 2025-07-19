@@ -167,11 +167,8 @@ getgenv().Configuration = {
 		"Medium Treat",
 		"Levelup Lollipop",
 	},
-	PetDino = {
-	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
-		{ Name = "Ancient Seed Pack", Amount = 20 },
 		{ Name = "Anti Bee Egg", Amount = 2 },
 	},
 	EVENTSHOP = {
@@ -182,22 +179,29 @@ getgenv().Configuration = {
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
 	SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
 	SELL_PET_KEEP_WEIGHT = 8, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet ตามน้ำหนัก
+	
 	OpenEgg = true, -- true/false เปิด Auto Open Egg
 	PlaceEgg = true, -- true/false เปิด Auto Place Egg
 	BuyEgg = true, -- true/false เปิด Auto Buy Egg
+
+	MaxCropInFarm = 150,
+	
 	UpgradePetSlot = false, -- true/false เปิด Auto Upgrade Pet Slot
 	UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
 	UpgradePetInventory = false, -- true/false เปิด Auto Upgrade Pet Inventory
+
+	TakeEventPlant = true, -- true/false เปิด Take Event Plant
+	
 	AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
 	AutoEvent = true, -- true/false เปิด ส่ง Event
 	AutoFavEvent = true, -- true/false เปิด Auto Fav Event
 	OPEN_SEEDPACK = true, -- true/false เปิด Night Seed Pack
+
+	OpenFlowerSeedPack = 1,
 	MoneyEnough = 200000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
 	Fpsboost = true, -- true/false เปิด Fpsboost
-	MaxCropInFarm = 150,
-	OpenFlowerSeedPack = 1,
-	CollectBatch = 10, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
 	WEBHOOK_URL = getgenv().Discord, -- Webhook ที่จะส่งไปที่ Discord
+	NOTIFY_PETWEIGHT = 7, -- น้ำหนักของ Pet
 	NOTIFY_PETS = {
 		"Dragonfly",
 		"Raccoon",
@@ -210,6 +214,7 @@ getgenv().Configuration = {
 		"Spinosaurus",
 		"Kitsune"
 	},
+	CollectBatch = 10, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
 		{ Money = 5000000, Minutes = 2 },
