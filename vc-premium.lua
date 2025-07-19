@@ -165,7 +165,7 @@ getgenv().Configuration = {
 	PlaceEgg = true, -- true/false เปิด Auto Place Egg
 	BuyEgg = true, -- true/false เปิด Auto Buy Egg
 
-	MaxCropInFarm = 200,
+	MaxCropInFarm = 500,
 	
 	UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
 	UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
