@@ -197,7 +197,7 @@ getgenv().Configuration = {
 	CollectBatch = 15, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
-		{ Money = 5000000, Minutes = 2 },
+		{ Money = 5000000, Minutes = 5 },
 		{ Money = 0, Minutes = 0 },
 	},
 }
