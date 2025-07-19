@@ -177,7 +177,7 @@ getgenv().Configuration = {
 	AutoFavEvent = true, -- true/false เปิด Auto Fav Event
 	OPEN_SEEDPACK = true, -- true/false เปิด Night Seed Pack
 
-	OpenFlowerSeedPack = 1,
+	OpenFlowerSeedPack = 999,
 	MoneyEnough = 200000, -- ต้องมีเงินมากกว่าเท่าไหร่ถึงจะซื้อ Egg and Item
 	Fpsboost = true, -- true/false เปิด Fpsboost
 	WEBHOOK_URL = getgenv().Discord, -- Webhook ที่จะส่งไปที่ Discord
