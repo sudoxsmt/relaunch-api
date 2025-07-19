@@ -193,7 +193,6 @@ getgenv().Configuration = {
 	TakeEventPlant = true, -- true/false เปิด Take Event Plant
 	
 	AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
-	AutoEvent = true, -- true/false เปิด ส่ง Event
 	AutoFavEvent = true, -- true/false เปิด Auto Fav Event
 	OPEN_SEEDPACK = true, -- true/false เปิด Night Seed Pack
 
