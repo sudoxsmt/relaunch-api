@@ -82,9 +82,6 @@ getgenv().Configuration = {
 		"Blood Kiwi",
 		"bara",
 		"Ostrich",
-		"Brontosaurus",
-		"Ankylosaurus",
-		"Dilophosaurus",
 		"Capybara"
 	},
 	PETTOUPGRADE = {
@@ -161,7 +158,10 @@ getgenv().Configuration = {
 		"Caterpillar",
 		"Snail",
 		"Giant Ant",
-		"Praying Mantis"
+		"Praying Mantis",
+		"Shiba Inu",
+		"Nihonzaru",
+		"Tanuki",
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
@@ -172,61 +172,6 @@ getgenv().Configuration = {
 		"Levelup Lollipop",
 	},
 	PetDino = {
-		-- กำหนดชื่อ Pet ที่ต้องการใช้ในการ Evo
-		"Chicken",
-		"Rooster",
-		"Kiwi",
-		"Blood Kiwi",
-		"Dog",
-		"Golden Lab",
-		"Bunny",
-		"Black Bunny",
-		"Cat",
-		"Orange Tabby",
-		"Deer",
-		"Spotted Deer",
-		"Monkey",
-		"Silver Monkey",
-		"Pig",
-		"Turtle",
-		"Cow",
-		"Polar Bear",
-		"Panda",
-		"Sea Otter",
-		"Hedgehog",
-		"Mole",
-		"Frog",
-		"Grey Mouse",
-		"Brown Mouse",
-		"Red Giant Ant",
-		"Bee",
-		"Honey Bee",
-		"Wasp",
-		"Tarantula Hawk",
-		"Moth",
-		"Peacock",
-		"bara",
-		"Meerkat",
-		"Sand Snake",
-		"Axolotl",
-		"Flamingo",
-		"Sea Turtle",
-		"Orangutan",
-		"Seal",
-		"Moon Cat",
-		"Hedgehog",
-		"Mole",
-		"Frog",
-		"Echo Frog",
-		"Night Owl",
-		"Petal Bee",
-		"Bear Bee",
-		"Toucan",
-		"Hyacinth Macaw",
-		"Caterpillar",
-		"Snail",
-		"Giant Ant",
-		"Praying Mantis"
 	},
 	Craft_Event = {
 		-- กำหนดชื่อที่ต้องการจะคราฟ และจำนวน
@@ -235,8 +180,8 @@ getgenv().Configuration = {
 	},
 	EVENTSHOP = {
 		-- กำหนดชื่อ Event ที่ต้องการทำ
-		{ Name = "Summer Seed Pack", Amount = 2 },
-		{ Name = "Oasis Egg", Amount = 2 },
+		{ Name = "Zen Seed Pack", Amount = 2 },
+		{ Name = "Zen Egg", Amount = 2 },
 	},
 	TakeAncientPlant = true,
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
@@ -267,7 +212,8 @@ getgenv().Configuration = {
 		"Mimic Octopus",
 		"Fennec Fox",
 		"T-Rex",
-		"Spinosaurus"
+		"Spinosaurus",
+		"Kitsune"
 	},
 	COLLECT_MINUTES = {
 		-- กำหนดเวลาในการเก็บของในฟาร์ม ตามจำนวนเงินที่มี
