@@ -30,7 +30,10 @@ getgenv().Configuration = {
 		"Mango",
 		"Giant Pinecone",
 		"Hinomai",
-		"Zen Rocks"
+		"Zen Rocks",
+		"Monoblooma",
+		"Serenity",
+		"Taro Flower"
 	},
 	BuySeed = {
 		-- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
