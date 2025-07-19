@@ -19,10 +19,10 @@ if game.PlaceId == gagId then
     getgenv().Hermanos_Settings = {
         ['key'] = var1,
         ['PC'] = var2,
-        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom"},
-        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Capybara","T-Rex","Brontosaurus","Spinosaurus","Dilophosaurus"},
+        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom","Maple Apple"},
+        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","Capybara","T-Rex","Brontosaurus","Spinosaurus","Dilophosaurus","Kitsune"},
         ['Gears'] = {"Master Sprinkler","Levelup Lollipop"},
-        ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg","Dinosaur Egg","Primal Egg"}
+        ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg","Dinosaur Egg","Primal Egg","Zen Egg"}
 
     }
     task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/gag-main.lua'))() end)
