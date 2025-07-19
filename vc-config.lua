@@ -74,7 +74,8 @@ getgenv().Configuration = {
 		"Paradise Egg",
 		"Oasis Egg",
 		"Uncommon Egg",
-		"Rare Egg"
+		"Rare Egg",
+		"Common Egg"
 	},
 	PET_NAME = {
 		-- กำหนกดชื่อ pet ที่ต้องการนำใส่ฟาร๋ม
