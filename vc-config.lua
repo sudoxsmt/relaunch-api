@@ -28,7 +28,9 @@ getgenv().Configuration = {
 		"Orange Tulip",
 		"Daffodil",
 		"Mango",
-		"Giant Pinecone"
+		"Giant Pinecone",
+		"Hinomai",
+		"Zen Rocks"
 	},
 	BuySeed = {
 		-- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
@@ -57,10 +59,10 @@ getgenv().Configuration = {
 		"Paradise Egg",
 		"Oasis Egg",
 		"Uncommon Egg",
-		"Common Egg",
 		"Dinosaur Egg",
 		"Primal Egg",
-		"Rare Egg"
+		"Rare Egg",
+		"Zen Egg"
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
@@ -71,7 +73,6 @@ getgenv().Configuration = {
 		"Paradise Egg",
 		"Oasis Egg",
 		"Uncommon Egg",
-		"Common Egg",
 		"Rare Egg"
 	},
 	PET_NAME = {
@@ -80,9 +81,9 @@ getgenv().Configuration = {
 		"Rooster",
 		"Kiwi",
 		"Blood Kiwi",
-		"bara",
 		"Ostrich",
-		"Capybara"
+		"Capybara",
+		"Tanchozuru"
 	},
 	PETTOUPGRADE = {
 		-- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
@@ -183,7 +184,6 @@ getgenv().Configuration = {
 		{ Name = "Zen Seed Pack", Amount = 2 },
 		{ Name = "Zen Egg", Amount = 2 },
 	},
-	TakeAncientPlant = true,
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
 	SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
 	SELL_PET_KEEP_WEIGHT = 8, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet ตามน้ำหนัก
