@@ -177,6 +177,7 @@ getgenv().Configuration = {
 		-- กำหนดชื่อ Event ที่ต้องการทำ
 		{ Name = "Zen Seed Pack", Amount = 2 },
 		{ Name = "Zen Egg", Amount = 2 },
+		{ Name = "Koi", Amount = 2 },
 	},
 	SELL_PET_MIN_COUNT = 1, -- จำนวน Pet ที่จะขายเมื่อมีมากกว่าหรือเท่ากับจำนวนนี้
 	SELL_PET_KEEP_COUNT = 1, -- จำนวน Pet ที่จะเก็บไว้เมื่อขาย Pet
