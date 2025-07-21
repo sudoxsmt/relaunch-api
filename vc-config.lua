@@ -159,7 +159,6 @@ getgenv().Configuration = {
 		"Giant Ant",
 		"Praying Mantis",
 		"Shiba Inu",
-		"Nihonzaru",
 		"Tanuki",
 	},
 	BUY_GEAR = {
