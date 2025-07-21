@@ -63,8 +63,7 @@ getgenv().Configuration = {
 		"Oasis Egg",
 		"Dinosaur Egg",
 		"Primal Egg",
-		"Zen Egg",
-		"Common Egg"
+		"Zen Egg"
 	},
 	BUYEGG = {
 		-- กำหนด Egg ที่ต้องการซื้อจาก Egg Shop
