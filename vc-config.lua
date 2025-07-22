@@ -160,6 +160,7 @@ getgenv().Configuration = {
 		"Praying Mantis",
 		"Shiba Inu",
 		"Tanuki",
+		"Nihonzaru"
 	},
 	PetDino = {
 		"Chicken",
@@ -217,6 +218,7 @@ getgenv().Configuration = {
 		"Praying Mantis",
 		"Shiba Inu",
 		"Tanuki",
+		"Nihonzaru"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
