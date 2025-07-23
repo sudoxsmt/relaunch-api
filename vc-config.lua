@@ -234,7 +234,7 @@ getgenv().Configuration = {
 	},
 	EVENTSHOP = {
 		-- กำหนดชื่อ Event ที่ต้องการทำ
-		{ Name = "Zen Seed Pack", Amount = 2 },
+		-- { Name = "Zen Seed Pack", Amount = 2 },
 		{ Name = "Zen Egg", Amount = 2 },
 		{ Name = "Koi", Amount = 2 },
 	},
