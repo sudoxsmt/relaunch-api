@@ -161,7 +161,8 @@ getgenv().Configuration = {
 		"Shiba Inu",
 		"Tanuki",
 		"Nihonzaru",
-		"Kappa"
+		"Kappa",
+		"Capybara"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
