@@ -198,6 +198,7 @@ getgenv().Configuration = {
 	UpgradePetInventory = false, -- true/false เปิด Auto Upgrade Pet Inventory
 
 	TakeEventPlant = true, -- true/false เปิด Take Event Plant
+	AutoCollectEventMutation = false, -- true/false เปิด Auto Collect Event Mutation
 	
 	AUTOFEEDPETS = true, -- true/false เปิด Auto Feed Pet
 	AutoFavEvent = true, -- true/false เปิด Auto Fav Event
