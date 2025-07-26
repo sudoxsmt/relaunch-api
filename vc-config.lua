@@ -219,7 +219,8 @@ getgenv().Configuration = {
 		"Fennec Fox",
 		"T-Rex",
 		"Spinosaurus",
-		"Kitsune"
+		"Kitsune",
+		"Corrupted Kitsune"
 	},
 	CollectBatch = 8, -- จำนวนการเก็บของในฟาร์มต่อครั้ง
 	COLLECT_MINUTES = {
