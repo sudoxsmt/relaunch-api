@@ -162,7 +162,11 @@ getgenv().Configuration = {
 		"Tanuki",
 		"Nihonzaru",
 		"Kappa",
-		"Capybara"
+		"Capybara",
+		"Kodama",
+		"Corrupted Kodama",
+		"Maneki-neko",
+		"Football"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
