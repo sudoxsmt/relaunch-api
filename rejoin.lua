@@ -186,9 +186,9 @@ task.spawn(function()
         if not IsGetKick then
             sendHeartbeat()
         else
-            task.wait(35)
+            task.wait(10)
             setOffline()
         end
-        task.wait(30)
+        task.wait(60)
     end
 end)
