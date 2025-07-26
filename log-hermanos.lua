@@ -19,8 +19,8 @@ if game.PlaceId == gagId then
     getgenv().Hermanos_Settings = {
         ['key'] = var1,
         ['PC'] = var2,
-        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom","Maple Apple"},
-        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","T-Rex","Brontosaurus","Spinosaurus","Dilophosaurus","Kitsune","Koi"},
+        ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom","Maple Apple","Tranquil Bloom"},
+        ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","T-Rex","Brontosaurus","Spinosaurus","Dilophosaurus","Kitsune","Koi","Corrupted Kitsune"},
         ['Gears'] = {"Master Sprinkler","Levelup Lollipop"},
         ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg","Dinosaur Egg","Primal Egg","Zen Egg","Common Egg"}
 
