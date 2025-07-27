@@ -165,7 +165,7 @@ getgenv().Configuration = {
 		"Kappa",
 		"Capybara",
 		"Kodama",
-		"Corrupted Kodama",
+		-- "Corrupted Kodama",
 		"Maneki-neko",
 		"Football"
 	},
