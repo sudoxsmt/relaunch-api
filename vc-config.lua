@@ -95,6 +95,7 @@ getgenv().Configuration = {
 		"Kiwi",
 		"Ostrich",
 		"Blood Kiwi",
+		"Tanchozuru",
 	},
 	SELL_PET = {
 		-- กำหนดชื่อ pet ที่ต้องการขาย
