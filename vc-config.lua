@@ -199,7 +199,7 @@ getgenv().Configuration = {
 
 	MaxCropInFarm = 150,
 	
-	UpgradePetSlot = false, -- true/false เปิด Auto Upgrade Pet Slot
+	UpgradePetSlot = true, -- true/false เปิด Auto Upgrade Pet Slot
 	UpgradeEggSlot = true, -- true/false เปิด Auto Upgrade Egg Slot
 	UpgradePetInventory = false, -- true/false เปิด Auto Upgrade Pet Inventory
 
