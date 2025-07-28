@@ -156,16 +156,16 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Ostrich"] = { 1, 70 ,1},
-				["Tanchozuru"] = { 2, 70 ,2},
+				["Ostrich"] = { 1, 40 ,1},
+				["Tanchozuru"] = { 1, 40 ,2},
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
+				["Kodama"] = { 1, 70 ,1},
+				["Corrupted Kodama"] = { 1, 70 ,1},
+				["Koi"] = { 1, 70 ,1},
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
-				["Tanchozuru"] = { 1, 70 ,1},
-				["Kodama"] = { 1, 70 ,2},
-				["Corrupted Kodama"] = { 1, 70 ,2},
-				["Koi"] = { 1, 70 ,5},
+				["Tanchozuru"] = { 1, 70 ,2},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
