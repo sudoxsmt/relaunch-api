@@ -86,7 +86,7 @@ getgenv().Configuration = {
 		"Ostrich",
 		"Tanchozuru",
 		"Koi",
-		"Corrupted Kodama"
+		"Corrupted Kodama",
 		"Kodama",
 	},
 	PETTOUPGRADE = {
