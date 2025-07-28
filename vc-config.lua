@@ -87,6 +87,7 @@ getgenv().Configuration = {
 		"Tanchozuru",
 		"Koi",
 		"Corrupted Kodama"
+		"Kodama",
 	},
 	PETTOUPGRADE = {
 		-- กำหนดชื่อ Pet ที่ต้องการนำไปใช้ในการ Upgrade
@@ -96,6 +97,7 @@ getgenv().Configuration = {
 		"Ostrich",
 		"Blood Kiwi",
 		"Tanchozuru",
+		"Kodama",
 	},
 	SELL_PET = {
 		-- กำหนดชื่อ pet ที่ต้องการขาย
@@ -165,7 +167,7 @@ getgenv().Configuration = {
 		"Nihonzaru",
 		"Kappa",
 		"Capybara",
-		"Kodama",
+		-- "Kodama",
 		-- "Corrupted Kodama",
 		"Maneki-neko",
 		"Football"
