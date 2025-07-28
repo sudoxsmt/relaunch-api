@@ -170,7 +170,8 @@ getgenv().Configuration = {
 		-- "Kodama",
 		-- "Corrupted Kodama",
 		"Maneki-neko",
-		"Football"
+		"Football",
+		"Scarlet Macaw"
 	},
 	BUY_GEAR = {
 		-- กำหนด Item ที่ต้องการซื้อจาก Gear Shop
