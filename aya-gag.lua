@@ -103,7 +103,6 @@ getgenv().ConfigsKaitun = {
 			"Zen Egg",
 			"Zen Seed Pack",
 			"Koi",
-			"Raiju",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
