@@ -14,7 +14,11 @@ getgenv().ConfigsKaitun = {
 			"Fossilight",
 			"Sugar Apple",
 			"Burning Bud",
-			"Giant Pinecone"
+			"Giant Pinecone",
+			"Hinomai",
+			"Monoblooma",
+			"Serenity",
+			
 		}
 	},
 
