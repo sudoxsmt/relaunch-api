@@ -33,7 +33,9 @@ getgenv().Configuration = {
 		"Zen Rocks",
 		"Monoblooma",
 		"Serenity",
-		"Taro Flower"
+		"Taro Flower",
+		"Dezen",
+		"Lucky Bamboo"
 	},
 	BuySeed = {
 		-- กำหนด Seed ที่ต้องการซื้อจาก Seed Shop
