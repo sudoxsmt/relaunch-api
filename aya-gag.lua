@@ -163,8 +163,8 @@ getgenv().ConfigsKaitun = {
 			["Equip When Done"] = {
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Tanchozuru"] = { 1, 70 ,1},
-				["Kodama"] = { 2, 70 ,1},
-				["Corrupted Kodama"] = { 2, 70 ,1},
+				["Kodama"] = { 1, 70 ,1},
+				["Corrupted Kodama"] = { 1, 70 ,1},
 				["Koi"] = { 1, 70 ,5},
 			},
 		},
