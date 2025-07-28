@@ -21,8 +21,7 @@ getgenv().ConfigsKaitun = {
 			"Giant Pinecone",
 			"Hinomai",
 			"Monoblooma",
-			"Serenity",
-			
+			"Serenity"
 		}
 	},
 
