@@ -83,7 +83,7 @@ getgenv().ConfigsKaitun = {
 				Minimum_Chi = 200
 			},
 			["Doing"] = {
-				Minimum_Money = 1_000_000, -- minimum money to start play this event
+				Minimum_Money = 500_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 4,
 				Maximum_Chi = 100,
 			}
@@ -100,10 +100,9 @@ getgenv().ConfigsKaitun = {
 			"Zen Egg",
 			"Zen Seed Pack",
 			"Koi",
-			"Sakura Bush",
 			"Raiju",
 		},
-		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
+		Start_Do_Honey = 1_000_000 -- start trade fruit for honey at money
 	},
 
 	Gear = {
@@ -137,7 +136,6 @@ getgenv().ConfigsKaitun = {
 			"Bug Egg",
 			"Paradise Egg",
 			"Bee Egg",
-			"Common Egg",
 		},
 		Buy = {
 			"Bug Egg",
