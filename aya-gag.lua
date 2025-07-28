@@ -65,7 +65,9 @@ getgenv().ConfigsKaitun = {
 				"Zen Rocks",
 				"Monoblooma",
 				"Serenity",
-				"Taro Flower"
+				"Taro Flower",
+				"Dezen",
+				"Lucky Bamboo",
 			},
 			Lock = {
 			}
