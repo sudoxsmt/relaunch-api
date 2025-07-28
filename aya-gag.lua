@@ -166,6 +166,7 @@ getgenv().ConfigsKaitun = {
 				["Tanchozuru"] = { 2, 70 ,1},
 				["Kodama"] = { 1, 70 ,2},
 				["Corrupted Kodama"] = { 1, 70 ,3},
+				["Koi"] = { 1, 70 ,5},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
