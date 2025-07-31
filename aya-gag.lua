@@ -1,6 +1,8 @@
 getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = true,
 
+	Collect_Cooldown = 30, -- cooldown to collect fruit
+
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
 
@@ -30,7 +32,7 @@ getgenv().ConfigsKaitun = {
 
 	Seed = {
 		Buy = {
-			Mode = "Custom", -- Custom , Auto
+			Mode = "Auto", -- Custom , Auto
 			Custom = {
 				"Carrot",
 				"Bamboo",
