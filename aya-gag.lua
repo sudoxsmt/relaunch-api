@@ -17,7 +17,14 @@ getgenv().ConfigsKaitun = {
 			"Giant Pinecone",
 			"Hinomai",
 			"Monoblooma",
-			"Serenity"
+			"Serenity",
+			-- locked fruit for zen event
+			["Tomato"] = 1, ["Strawberry"] = 1, ["Blueberry"] = 1,
+			["Orange Tulip"] = 1, ["Corn"] = 1, ["Daffodil"] = 1,
+			["Bamboo"] = 1, ["Apple"] = 1, ["Coconut"] = 1,
+			["Pumpkin"] = 1, ["Watermelon"] = 1, ["Cactus"] = 1,
+			["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1,
+			["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1
 		}
 	},
 
@@ -88,9 +95,13 @@ getgenv().ConfigsKaitun = {
 				Minimum_Chi = 200
 			},
 			["Doing"] = {
-				Minimum_Money = 1_000_000, -- minimum money to start play this event
+				Minimum_Money = 30_000_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 4,
-				Maximum_Chi = 100,
+				Maximum_Chi = 250,
+				-- // thing to skip doing
+				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
 			}
 		},
 		["Traveling Shop"] = {
