@@ -99,7 +99,7 @@ getgenv().ConfigsKaitun = {
 				Minimum_Chi = 200
 			},
 			["Doing"] = {
-				Minimum_Money = 30_000_000, -- minimum money to start play this event
+				Minimum_Money = 1_000_000, -- minimum money to start play this event
 				First_Upgrade_Tree = 4,
 				Maximum_Chi = 250,
 				-- // thing to skip doing
