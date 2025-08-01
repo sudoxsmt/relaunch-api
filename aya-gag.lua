@@ -100,11 +100,11 @@ getgenv().ConfigsKaitun = {
 			},
 			["Doing"] = {
 				Minimum_Money = 1_000_000, -- minimum money to start play this event
-				First_Upgrade_Tree = 4,
-				Maximum_Chi = 250,
+				First_Upgrade_Tree = 0,
+				Maximum_Chi = 99999,
 				-- // thing to skip doing
 				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
+				Skip_Corrupted_OldMan = true, -- Skip The Middle Fox Trade (Corrupted Kitsune)
 				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
 			}
 		},
