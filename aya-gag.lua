@@ -73,9 +73,10 @@ getgenv().ConfigsKaitun = {
 				"Taro Flower",
 				"Dezen",
 				"Lucky Bamboo",
-				"Strawberry",
-				"Tomato",
-				"Elder Strawberry"
+				"Elder Strawberry",
+				"Tall Asparagus",
+				"Sugarglaze",
+				"Sugarglaze",
 			},
 			Lock = {
 			}
