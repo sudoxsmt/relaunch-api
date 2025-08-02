@@ -179,6 +179,8 @@ getgenv().ConfigsKaitun = {
 			["Pet"] = {
 				["Ostrich"] = { 1, 40 ,1},
 				["Tanchozuru"] = { 1, 40 ,2},
+				["Kodama"] = { 1, 40 ,1},
+				["Corrupted Kodama"] = { 1, 40 ,1},
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
@@ -186,7 +188,7 @@ getgenv().ConfigsKaitun = {
 				["Corrupted Kodama"] = { 1, 70 ,1},
 				["Koi"] = { 1, 70 ,1},
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
-				["Tanchozuru"] = { 1, 70 ,2},
+				["Spaghetti Sloth"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
@@ -202,7 +204,6 @@ getgenv().ConfigsKaitun = {
 			"Spinosaurus",
 			"Kitsune",
 			"Corrupted Kitsune",
-			"Spaghetti Sloth",
 			"French Fry Ferret",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
@@ -275,7 +276,10 @@ getgenv().ConfigsKaitun = {
 			"Capybara",
 			"Maneki-neko",
 			"Football",
-			"Scarlet Macaw"
+			"Scarlet Macaw",
+			"Bagel Bunny",
+			"Pancake Mole",
+			"Sushi Bear",
 		}
 	},
 
