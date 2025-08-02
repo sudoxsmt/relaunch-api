@@ -189,6 +189,7 @@ getgenv().ConfigsKaitun = {
 				["Koi"] = { 1, 70 ,1},
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Spaghetti Sloth"] = { 1, 70 ,1},
+				["Tanchozuru"] = { 1, 70 ,2},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
