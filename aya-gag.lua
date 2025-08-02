@@ -47,6 +47,7 @@ getgenv().ConfigsKaitun = {
 				"Daffodil",
 				"Mango",
 				"Giant Pinecone",
+				"Elder Strawberry"
 			}
 		},
 		Place = {
@@ -78,7 +79,8 @@ getgenv().ConfigsKaitun = {
 				"Dezen",
 				"Lucky Bamboo",
 				"Strawberry",
-				"Tomato"
+				"Tomato",
+				"Elder Strawberry"
 			},
 			Lock = {
 			}
@@ -149,6 +151,7 @@ getgenv().ConfigsKaitun = {
 	Eggs = {
 		Place = {
 			"Zen Egg",
+			"Gourmet Egg",
 			"Primal Egg",
 			"Dinosaur Egg",
 			"Oasis Egg",
@@ -199,7 +202,9 @@ getgenv().ConfigsKaitun = {
 			"T-Rex",
 			"Spinosaurus",
 			"Kitsune",
-			"Corrupted Kitsune"
+			"Corrupted Kitsune",
+			"Spaghetti Sloth",
+			"French Fry Ferret",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -296,7 +301,9 @@ getgenv().ConfigsKaitun = {
 				"T-Rex",
 				"Spinosaurus",
 				"Kitsune",
-				"Corrupted Kitsune"
+				"Corrupted Kitsune",
+				"Spaghetti Sloth",
+				"French Fry Ferret",
 			},
 			Pet_Weight_Noti = true,
 		}
