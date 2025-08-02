@@ -22,6 +22,7 @@ getgenv().ConfigsKaitun = {
 			"Monoblooma",
 			"Serenity",
 			"Elder Strawberry",
+			"Beanstalk",
 		}
 	},
 
@@ -75,7 +76,6 @@ getgenv().ConfigsKaitun = {
 				"Lucky Bamboo",
 				"Elder Strawberry",
 				"Tall Asparagus",
-				"Sugarglaze",
 				"Sugarglaze",
 			},
 			Lock = {
