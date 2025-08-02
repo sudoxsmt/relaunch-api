@@ -181,6 +181,7 @@ getgenv().ConfigsKaitun = {
 				["Tanchozuru"] = { 1, 40 ,2},
 				["Kodama"] = { 1, 40 ,1},
 				["Corrupted Kodama"] = { 1, 40 ,1},
+				["Mochi Mouse"] = { 1, 40 ,1},
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
@@ -190,6 +191,7 @@ getgenv().ConfigsKaitun = {
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Spaghetti Sloth"] = { 1, 70 ,1},
 				["Tanchozuru"] = { 1, 70 ,2},
+				["Mochi Mouse"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
