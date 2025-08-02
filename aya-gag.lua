@@ -1,7 +1,8 @@
 getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = true,
 
-	Collect_Cooldown = 30, -- cooldown to collect fruit
+	Collect_Cooldown = 60, -- cooldown to collect fruit
+	JustFuckingCollectAll = true, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
@@ -20,13 +21,7 @@ getgenv().ConfigsKaitun = {
 			"Hinomai",
 			"Monoblooma",
 			"Serenity",
-			-- locked fruit for zen event
-			["Tomato"] = 1, ["Strawberry"] = 1, ["Blueberry"] = 1,
-			["Orange Tulip"] = 1, ["Corn"] = 1, ["Daffodil"] = 1,
-			["Bamboo"] = 1, ["Apple"] = 1, ["Coconut"] = 1,
-			["Pumpkin"] = 1, ["Watermelon"] = 1, ["Cactus"] = 1,
-			["Dragon Fruit"] = 1, ["Mango"] = 1, ["Grape"] = 1,
-			["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 1
+			"Elder Strawberry",
 		}
 	},
 
@@ -94,6 +89,9 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
+		["Cook Event"] = {
+			Minimum_Money = 1_000_000, -- minimum money to start play this event
+		},
 		["Zen Event"] = {
 			["Restocking"] = { -- Minimumthing to restock
 				Max_Restocks_Price = 50_000_000,
