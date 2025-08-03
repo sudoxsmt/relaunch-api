@@ -184,6 +184,7 @@ getgenv().ConfigsKaitun = {
 			"Bug Egg",
 			"Paradise Egg",
 			"Bee Egg",
+			"Rare Summer Egg",
 		},
 		Buy = {
 			"Bug Egg",
@@ -193,7 +194,7 @@ getgenv().ConfigsKaitun = {
 			"Paradise Egg",
 			"Oasis Egg",
 			-- "Uncommon Egg",
-			-- "Rare Egg",
+			"Rare Summer Egg",
 			-- "Common Egg"
 		}
 	},
@@ -207,6 +208,7 @@ getgenv().ConfigsKaitun = {
 				["Kodama"] = { 1, 40 ,1},
 				["Corrupted Kodama"] = { 1, 40 ,1},
 				["Mochi Mouse"] = { 1, 40 ,1},
+				["Toucan"] = { 1, 40 ,1},
 			},
 			["Limit Upgrade"] = 2,
 			["Equip When Done"] = {
@@ -217,6 +219,7 @@ getgenv().ConfigsKaitun = {
 				["Spaghetti Sloth"] = { 1, 70 ,1},
 				["Tanchozuru"] = { 1, 70 ,2},
 				["Mochi Mouse"] = { 1, 70 ,1},
+				["Toucan"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
@@ -233,6 +236,7 @@ getgenv().ConfigsKaitun = {
 			"Kitsune",
 			"Corrupted Kitsune",
 			"French Fry Ferret",
+			["Toucan"] = 2,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -283,7 +287,6 @@ getgenv().ConfigsKaitun = {
 			"Night Owl",
 			"Petal Bee",
 			"Bear Bee",
-			"Toucan",
 			"Hyacinth Macaw",
 			"Pterodactyl",
 			"Triceratops",
