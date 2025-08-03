@@ -1,8 +1,8 @@
 getgenv().ConfigsKaitun = {
 	["Block Pet Gift"] = true,
 
-	Collect_Cooldown = 60, -- cooldown to collect fruit
-	JustFuckingCollectAll = true, -- Collect all (fruit not wait mutation)
+	Collect_Cooldown = 30, -- cooldown to collect fruit
+	JustFuckingCollectAll = false, -- Collect all (fruit not wait mutation)
 
 	["Low Cpu"] = true,
 	["Auto Rejoin"] = false,
@@ -23,6 +23,15 @@ getgenv().ConfigsKaitun = {
 			"Serenity",
 			"Elder Strawberry",
 			"Beanstalk",
+			["Tomato"] = 2,
+			["Corn"] = 2,
+			["Pumpkin"] = 2,
+			["Watermelon"] = 2,
+			["Strawberry"] = 2,
+			["Grape"] = 2,
+			["Cactus"] = 2,
+			["Mango"] = 2,
+			["Pepper"] = 2,
 		}
 	},
 
@@ -33,6 +42,14 @@ getgenv().ConfigsKaitun = {
 				"Carrot",
 				"Bamboo",
 				"Mushroom",
+				"Tomato",
+				"Corn",
+				"Pumpkin",
+				"Watermelon",
+				"Strawberry",
+				"Cactus",
+				"Pepper",
+				"Mango",
 				"Dragon Fruit",
 				"Cacao",
 				"Beanstalk",
@@ -77,6 +94,14 @@ getgenv().ConfigsKaitun = {
 				"Elder Strawberry",
 				"Tall Asparagus",
 				"Sugarglaze",
+				"Onion",
+				"Tomato",
+				"Corn",
+				"Pumpkin",
+				"Watermelon",
+				"Strawberry",
+				"Cactus",
+				"Pepper",
 			},
 			Lock = {
 			}
