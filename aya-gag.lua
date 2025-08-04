@@ -9,8 +9,8 @@ getgenv().ConfigsKaitun = {
 
 	["Rejoin When Update"] = true,
 	["Limit Tree"] = {
-		["Limit"] = 150,
-		["Destroy Untill"] = 150,
+		["Limit"] = 100,
+		["Destroy Untill"] = 100,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -95,13 +95,23 @@ getgenv().ConfigsKaitun = {
 				"Tall Asparagus",
 				"Sugarglaze",
 				"Onion",
-				"Tomato",
-				"Corn",
-				"Pumpkin",
-				"Watermelon",
-				"Strawberry",
-				"Cactus",
-				"Pepper",
+				-- "Tomato",
+				-- "Corn",
+				-- "Pumpkin",
+				-- "Watermelon",
+				-- "Strawberry",
+				-- "Cactus",
+				-- "Pepper",
+				-- "Mango",
+				["Tomato"] = 2,
+				["Corn"] = 2,
+				["Pumpkin"] = 2,
+				["Watermelon"] = 2,
+				["Strawberry"] = 2,
+				["Grape"] = 2,
+				["Cactus"] = 2,
+				["Mango"] = 2,
+				["Pepper"] = 2,
 			},
 			Lock = {
 			}
