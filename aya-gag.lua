@@ -128,22 +128,6 @@ getgenv().ConfigsKaitun = {
 		["Cook Event"] = {
 			Minimum_Money = 1_000_000, -- minimum money to start play this event
 		},
-		["Zen Event"] = {
-			["Restocking"] = { -- Minimumthing to restock
-				Max_Restocks_Price = 50_000_000,
-				Minimum_Money = 10_000_000,
-				Minimum_Chi = 200
-			},
-			["Doing"] = {
-				Minimum_Money = 1_000_000, -- minimum money to start play this event
-				First_Upgrade_Tree = 4,
-				Maximum_Chi = 250,
-				-- // thing to skip doing
-				Skip_Fox = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				Skip_Corrupted_OldMan = false, -- Skip The Middle Fox Trade (Corrupted Kitsune)
-				-- If u need to skip Tranquill OldMan Set "First Upgrade Tree" To 0 and Max Chi To 99999
-			}
-		},
 		["Traveling Shop"] = {
 			"Bee Egg",
 		},
