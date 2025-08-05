@@ -15,7 +15,7 @@ local gagId = 126884695634066
 local bfList = {2753915549, 4442272183, 7449423635}
 
 if game.PlaceId == gagId then
-    task.wait(30) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
+    task.wait(10) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
     getgenv().Hermanos_Settings = {
         ['key'] = var1,
         ['PC'] = var2,
