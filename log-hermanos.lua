@@ -21,7 +21,7 @@ if game.PlaceId == gagId then
         ['PC'] = var2,
         ['Seeds'] = {"Sunflower","Candy Blossom","Moon Blossom","Candy Blossom","Dragon Pepper","Elephant Ears","Honeysuckle","Fossilight","Bone Blossom","Maple Apple","Tranquil Bloom","Grand Tomato"},
         ['Pets'] = {"Queen Bee","Raccoon","Dragonfly","Disco Bee","Butterfly","Mimic Octopus","Fennec Fox","T-Rex","Brontosaurus","Spinosaurus","Dilophosaurus","Kitsune","Corrupted Kitsune","Spaghetti Sloth","French Fry Ferret"},
-        ['Gears'] = {"Master Sprinkler","Levelup Lollipop"},
+        ['Gears'] = {"Master Sprinkler","Level Up Lollipop"},
         ['Eggs'] = {"Anti Bee Egg","Bee Egg","Night Egg","Mythical Egg","Bug Egg","Paradise Egg","Oasis Egg","Dinosaur Egg","Primal Egg","Zen Egg","Common Egg","Gourmet Egg"}
 
     }
