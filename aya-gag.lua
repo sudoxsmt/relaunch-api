@@ -168,7 +168,8 @@ getgenv().ConfigsKaitun = {
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
 			"Lightning Rod",
-			"Trading Ticket"
+			"Trading Ticket",
+			"Level Up Lollipop",
 		},
 	},
 
