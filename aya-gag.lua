@@ -158,7 +158,7 @@ getgenv().ConfigsKaitun = {
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
 			"Lightning Rod",
-			"Levelup Lollipop",
+			"Level Up Lollipop",
 			"Medium Treat",
 			"Medium Toy",
 		},
@@ -169,7 +169,7 @@ getgenv().ConfigsKaitun = {
 			"Advanced Sprinkler",
 			"Basic Sprinkler",
 			"Lightning Rod",
-			"Levelup Lollipop",
+			"Level Up Lollipop",
 		},
 	},
 
