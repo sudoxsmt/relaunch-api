@@ -226,6 +226,7 @@ getgenv().ConfigsKaitun = {
 				["Toucan"] = { 1, 30 ,1},
 				["Junkbot"] = { 1, 40 ,1},
 				["Koi"] = { 1, 40 ,1},
+				["Hotdog Daschund"] = { 1, 60 ,1},
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
@@ -237,6 +238,7 @@ getgenv().ConfigsKaitun = {
 				["Tanchozuru"] = { 1, 70 ,2},
 				["Mochi Mouse"] = { 1, 70 ,1},
 				["Junkbot"] = { 1, 70 ,1},
+				["Hotdog Daschund"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 70, -- pet that age > 60 will lock
@@ -356,7 +358,6 @@ getgenv().ConfigsKaitun = {
 				"Kitsune",
 				"Corrupted Kitsune",
 				"French Fry Ferret",
-				"Hotdog Daschund",
 				"Lobster Thermidor"
 			},
 			Pet_Weight_Noti = true,
