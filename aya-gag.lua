@@ -245,7 +245,6 @@ getgenv().ConfigsKaitun = {
 			"Kitsune",
 			"Corrupted Kitsune",
 			"French Fry Ferret",
-			["Toucan"] = 2,
 			"Hotdog Daschund",
 			"Lobster Thermidor"
 		},
