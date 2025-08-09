@@ -231,7 +231,7 @@ getgenv().ConfigsKaitun = {
 				["Junkbot"] = { 1, 70 ,1},
 			},
 		},
-		Locked_Pet_Age = 60, -- pet that age > 60 will lock
+		Locked_Pet_Age = 70, -- pet that age > 60 will lock
 		Locked = {
 			"Dragonfly",
 			"Raccoon",
