@@ -207,12 +207,13 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Ostrich"] = { 1, 65 ,1},
-				["Tanchozuru"] = { 1, 65 ,2},
+				["Ostrich"] = { 1, 40 ,1},
+				["Tanchozuru"] = { 1, 40 ,2},
 				["Kodama"] = { 1, 65 ,1},
 				["Corrupted Kodama"] = { 1, 65 ,1},
-				["Mochi Mouse"] = { 1, 65 ,1},
-				["Toucan"] = { 1, 65 ,1},
+				["Mochi Mouse"] = { 1, 30 ,1},
+				["Toucan"] = { 1, 30 ,1},
+				["Junkbot"] = { 1, 40 ,1},
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
@@ -223,7 +224,7 @@ getgenv().ConfigsKaitun = {
 				["Spaghetti Sloth"] = { 1, 70 ,1},
 				["Tanchozuru"] = { 1, 70 ,2},
 				["Mochi Mouse"] = { 1, 70 ,1},
-				["Toucan"] = { 1, 70 ,1},
+				["Junkbot"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 60, -- pet that age > 60 will lock
