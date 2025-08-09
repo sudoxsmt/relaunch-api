@@ -334,6 +334,7 @@ getgenv().ConfigsKaitun = {
 			"Pancake Mole",
 			"Sushi Bear",
 			"Toucan",
+			"Bacon Pig",
 		}
 	},
 
