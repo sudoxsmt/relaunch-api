@@ -207,13 +207,14 @@ getgenv().ConfigsKaitun = {
 		["Start Delete Pet At"] = 40,
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				["Ostrich"] = { 1, 40 ,1},
-				["Tanchozuru"] = { 1, 40 ,2},
+				["Ostrich"] = { 1, 35 ,1},
+				["Tanchozuru"] = { 1, 35 ,2},
 				["Kodama"] = { 1, 65 ,1},
 				["Corrupted Kodama"] = { 1, 65 ,1},
 				["Mochi Mouse"] = { 1, 30 ,1},
 				["Toucan"] = { 1, 30 ,1},
 				["Junkbot"] = { 1, 40 ,1},
+				["Koi"] = { 1, 40 ,1},
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
