@@ -227,10 +227,11 @@ getgenv().ConfigsKaitun = {
 				["Junkbot"] = { 1, 40 ,1},
 				["Koi"] = { 1, 40 ,1},
 				["Hotdog Daschund"] = { 1, 60 ,1},
+				["Sunny-Side Chicken"] = { 1, 60 ,1},
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
-				["Kodama"] = { 2, 70 ,1},
+				["Kodama"] = { 1, 70 ,1},
 				["Corrupted Kodama"] = { 1, 70 ,1},
 				["Koi"] = { 1, 70 ,1},
 				["Ostrich"] = { 1, 70 ,4}, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
@@ -239,6 +240,7 @@ getgenv().ConfigsKaitun = {
 				["Mochi Mouse"] = { 1, 70 ,1},
 				["Junkbot"] = { 1, 70 ,1},
 				["Hotdog Daschund"] = { 1, 70 ,1},
+				["Sunny-Side Chicken"] = { 1, 70 ,1},
 			},
 		},
 		Locked_Pet_Age = 70, -- pet that age > 60 will lock
