@@ -215,6 +215,7 @@ getgenv().ConfigsKaitun = {
 
 	Pets = {
 		["Start Delete Pet At"] = 40,
+		Favorite_LockedPet = true,
 		["Upgrade Slot"] = {
 			["Pet"] = {
 				["Ostrich"] = { 1, 35 ,1},
