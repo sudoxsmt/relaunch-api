@@ -256,7 +256,6 @@ getgenv().ConfigsKaitun = {
 			"Kitsune",
 			"Corrupted Kitsune",
 			"French Fry Ferret",
-			"Hotdog Daschund",
 			"Lobster Thermidor"
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
