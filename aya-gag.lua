@@ -228,7 +228,7 @@ getgenv().ConfigsKaitun = {
 				["Hotdog Daschund"] = { 1, 60 ,1},
 				["Sunny-Side Chicken"] = { 1, 75 ,1},
 			},
-			["Limit Upgrade"] = 3,
+			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
 				["Kodama"] = { 1, 70 ,1},
 				["Corrupted Kodama"] = { 1, 70 ,1},
@@ -239,7 +239,7 @@ getgenv().ConfigsKaitun = {
 				["Mochi Mouse"] = { 1, 70 ,1},
 				["Junkbot"] = { 1, 70 ,1},
 				["Hotdog Daschund"] = { 1, 70 ,1},
-				["Sunny-Side Chicken"] = { 1, 70 ,1},
+				["Sunny-Side Chicken"] = { 1, 75 ,1},
 			},
 		},
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
