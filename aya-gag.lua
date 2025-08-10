@@ -226,6 +226,7 @@ getgenv().ConfigsKaitun = {
 				["Junkbot"] = { 1, 40 ,1},
 				["Koi"] = { 1, 40 ,1},
 				["Hotdog Daschund"] = { 1, 60 ,1},
+				["Spaghetti Sloth"] = { 1, 60 ,1},
 				["Sunny-Side Chicken"] = { 1, 75 ,1 , true},
 			},
 			["Limit Upgrade"] = 5,
