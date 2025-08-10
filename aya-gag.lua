@@ -226,7 +226,7 @@ getgenv().ConfigsKaitun = {
 				["Junkbot"] = { 1, 40 ,1},
 				["Koi"] = { 1, 40 ,1},
 				["Hotdog Daschund"] = { 1, 60 ,1},
-				["Sunny-Side Chicken"] = { 1, 60 ,1},
+				["Sunny-Side Chicken"] = { 1, 75 ,1},
 			},
 			["Limit Upgrade"] = 3,
 			["Equip When Done"] = {
@@ -242,7 +242,7 @@ getgenv().ConfigsKaitun = {
 				["Sunny-Side Chicken"] = { 1, 70 ,1},
 			},
 		},
-		Locked_Pet_Age = 70, -- pet that age > 60 will lock
+		Locked_Pet_Age = 100, -- pet that age > 60 will lock
 		Locked = {
 			"Dragonfly",
 			"Raccoon",
