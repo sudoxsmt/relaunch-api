@@ -38,6 +38,8 @@ getgenv().ConfigsKaitun = {
 			["Cactus"] = 2,
 			["Mango"] = 2,
 			["Pepper"] = 2,
+			"Grand Tomato",
+			"King Cabbage",
 		}
 	},
 
@@ -110,6 +112,8 @@ getgenv().ConfigsKaitun = {
 				"Cactus",
 				"Pepper",
 				"Mango",
+				"Grand Tomato",
+				"King Cabbage",
 				-- ["Tomato"] = 2,
 				-- ["Corn"] = 2,
 				-- ["Pumpkin"] = 2,
