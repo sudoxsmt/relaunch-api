@@ -5,6 +5,8 @@ _G.Settings = {
         Limit = 200,
         Plant = {
             ["Carrot"] = 50,
+            ["Tomato"] = 10,
+            ["Strawberry"] = 10,
             ["Cauliflower"] = 1,
             ["Watermelon"] = 1,
             ["Rafflesia"] = 1,
@@ -22,26 +24,26 @@ _G.Settings = {
         Destroy = {
             WhenMoney = 50000,
             Plant = {
-                "Strawberry"
+                "Strawberry",
+                "Tomato"
             }
         }
     },
     SeedsSetting = {
-        "Carrot", "Cauliflower", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana",
+        "Carrot","Strawberry","Tomato", "Cauliflower", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana",
         "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Loquat", "Feijoa", "Sugar Apple",
     },
     EggSettings = {
         StartBuyEggWhen = 150000,
         SelectEggs = {
-            "Common Summer Egg"
+            "Common Egg"
         },
         PlaceEggs = {
             "Zen Egg",    
             "Common Summer Egg"
         },
         HatchEggs = {
-            "Zen Egg",
-            "Common Summer Egg"
+            "Zen Egg"
         }
     },
     Webhook = getgenv().Discord,
