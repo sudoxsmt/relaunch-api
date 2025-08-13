@@ -367,8 +367,7 @@ getgenv().ConfigsKaitun = {
 				"Spinosaurus",
 				"Kitsune",
 				"Corrupted Kitsune",
-				"French Fry Ferret",
-				"Lobster Thermidor"
+				"French Fry Ferret"
 			},
 			Pet_Weight_Noti = true,
 		}
