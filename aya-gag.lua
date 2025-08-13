@@ -2,7 +2,7 @@ getgenv().ConfigsKaitun = {
 	Beta_Fix_Data_Sync = true,
 	NoDeletePlayer = false,
 
-	["Block Pet Gift"] = true,
+	["Block Pet Gift"] = false,
 
 	Collect_Cooldown = 90, -- cooldown to collect fruit
 
