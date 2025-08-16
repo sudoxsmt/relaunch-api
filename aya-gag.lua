@@ -140,16 +140,20 @@ getgenv().ConfigsKaitun = {
 
 	Events = {
 		Dino = true,
-		["Cook Event"] = {
-			Minimum_Money = 1_000_000, -- minimum money to start play this event
-			Rewards_Item = { -- The top is the most top mean prefered.
-                "Gourmet Egg",
-                "Culinarian Chest",
-                "Gourmet Seed Pack",
-        		"Gorilla Chef",
-        		"Sunny-Side Chicken",
-				-- u can add it more as u want, if it not in list.
-			}
+		["Bean Event"] = {
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
+		},
+		Shop = { -- delete -- to buy
+			"Sprout Seed Pack",
+			"Sprout Egg",
+			-- "Mandrake",
+			"Silver Fertilizer",
+			-- "Canary Melon",
+			-- "Amberheart",
+			"Spriggan",
+			"Zen Egg",
+			"Zen Seed Pack",
+			"Koi",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
@@ -158,11 +162,6 @@ getgenv().ConfigsKaitun = {
 			"Ancient Seed Pack",
 			"Anti Bee Egg",
 			"Primal Egg",
-		},
-		Shop = {
-			"Zen Egg",
-			"Zen Seed Pack",
-			"Koi",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
