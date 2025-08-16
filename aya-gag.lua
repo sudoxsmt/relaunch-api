@@ -346,6 +346,9 @@ getgenv().ConfigsKaitun = {
 			"Bacon Pig",
 			"Spaghetti Sloth",
 			"Gorilla Chef",
+			"Dairy Cow",
+			"Jackalope",
+			"Seedling",
 		}
 	},
 
