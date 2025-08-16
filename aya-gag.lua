@@ -269,7 +269,9 @@ getgenv().ConfigsKaitun = {
 			"Corrupted Kitsune",
 			"French Fry Ferret",
 			"Lobster Thermidor",
-			"Brontosaurus"
+			"Brontosaurus",
+			"Golem",
+			"Golden Goose",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -371,7 +373,9 @@ getgenv().ConfigsKaitun = {
 				"Spinosaurus",
 				"Kitsune",
 				"Corrupted Kitsune",
-				"French Fry Ferret"
+				"French Fry Ferret",
+				"Golem",
+				"Golden Goose",
 			},
 			Pet_Weight_Noti = true,
 		}
