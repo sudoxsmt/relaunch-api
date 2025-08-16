@@ -191,6 +191,7 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Sprout Egg",
 			"Primal Egg",
 			"Dinosaur Egg",
 			"Zen Egg",
@@ -221,6 +222,7 @@ getgenv().ConfigsKaitun = {
 
 	Pets = {
 		["Start Delete Pet At"] = 40,
+		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
 		["Upgrade Slot"] = {
 			["Pet"] = {
