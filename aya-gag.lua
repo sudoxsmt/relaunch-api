@@ -154,7 +154,6 @@ getgenv().ConfigsKaitun = {
 			"Silver Fertilizer",
 			-- "Canary Melon",
 			-- "Amberheart",
-			"Spriggan",
 			"Zen Egg",
 			"Zen Seed Pack",
 			"Koi",
