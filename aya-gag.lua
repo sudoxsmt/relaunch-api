@@ -206,7 +206,7 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Gourmet Egg",
 			"Mythical Egg",
-			-- "Rare Summer Egg",
+			"Rare Summer Egg",
 			"Rare Egg",
 			-- "Common Egg",
 		},
@@ -245,12 +245,13 @@ getgenv().ConfigsKaitun = {
 				["Kodama"] = { 1, 70 },
 				["Corrupted Kodama"] = { 1, 70 },
 				["Koi"] = { 1, 70 },
-				["Ostrich"] = { 1, 70 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
+				["Ostrich"] = { 1, 100, 1 }, -- 1 mean equip only 1 pet , 70 mean equip only level pet lower than 70 the one on the last mean first priority will ues first if possible 
 				["Tanchozuru"] = { 1, 70 },
 				["Mochi Mouse"] = { 1, 70 },
 				["Junkbot"] = { 1, 70 },
 				["Hotdog Daschund"] = { 1, 70 },
-				["Sunny-Side Chicken"] = { 1, 75 ,1},
+				["Sunny-Side Chicken"] = { 1, 100 ,1},
+				["Seal"] = { 1, 100 ,1},
 			},
 		},
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
