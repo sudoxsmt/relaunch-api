@@ -270,7 +270,6 @@ getgenv().ConfigsKaitun = {
 			"French Fry Ferret",
 			"Lobster Thermidor",
 			"Brontosaurus",
-			"Golem",
 			"Golden Goose",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
@@ -353,6 +352,7 @@ getgenv().ConfigsKaitun = {
 			"Dairy Cow",
 			"Jackalope",
 			"Seedling",
+			"Golem",
 		}
 	},
 
