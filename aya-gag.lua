@@ -248,6 +248,7 @@ getgenv().ConfigsKaitun = {
 				["Hotdog Daschund"] = { 1, 60 ,1},
 				["Sunny-Side Chicken"] = { 1, 75 ,1 , true},
 				["Seal"] = { 1, 75 ,1 , true},
+				["Rooster"] = { 1, 60 ,1 ,true},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
@@ -261,6 +262,7 @@ getgenv().ConfigsKaitun = {
 				["Hotdog Daschund"] = { 1, 70 },
 				["Sunny-Side Chicken"] = { 1, 100 ,1},
 				["Seal"] = { 1, 100 ,1},
+				["Rooster"] = { 1, 60 ,1},
 			},
 		},
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
