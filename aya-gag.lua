@@ -384,6 +384,7 @@ getgenv().ConfigsKaitun = {
 				"Corrupted Kitsune",
 				"French Fry Ferret",
 				"Golden Goose",
+				"Griffin"
 			},
 			Pet_Weight_Noti = true,
 		}
