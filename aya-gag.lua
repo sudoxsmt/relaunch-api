@@ -193,6 +193,7 @@ getgenv().ConfigsKaitun = {
 			"Basic Sprinkler",
 			"Lightning Rod",
 			"Level Up Lollipop",
+			"Mega Lollipop",
 		},
 	},
 
