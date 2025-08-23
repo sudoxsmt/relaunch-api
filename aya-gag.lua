@@ -165,6 +165,8 @@ getgenv().ConfigsKaitun = {
 			"Ancient Seed Pack",
 			"Anti Bee Egg",
 			"Primal Egg",
+			"Pet Shard GiantBean",
+			"Sprout Egg",
 		},
 		Start_Do_Honey = 2_000_000 -- start trade fruit for honey at money
 	},
@@ -224,6 +226,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
+		["Auto Feed"] = true,
 		["Start Delete Pet At"] = 40,
 		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
