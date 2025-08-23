@@ -362,6 +362,8 @@ getgenv().ConfigsKaitun = {
 			"Jackalope",
 			"Seedling",
 			"Golem",
+			"Mandrake",
+			"Elk",
 		}
 	},
 
