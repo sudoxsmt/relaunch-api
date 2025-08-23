@@ -157,6 +157,8 @@ getgenv().ConfigsKaitun = {
 			"Zen Egg",
 			"Zen Seed Pack",
 			"Koi",
+			"Skyroot Chest",
+			"Pet Shard GiantBean",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
