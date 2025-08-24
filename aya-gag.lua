@@ -214,7 +214,7 @@ getgenv().ConfigsKaitun = {
 			"Gourmet Egg",
 			"Mythical Egg",
 			"Rare Summer Egg",
-			-- "Rare Egg",
+			"Rare Egg",
 			-- "Common Egg",
 		},
 		Buy = {
@@ -233,7 +233,7 @@ getgenv().ConfigsKaitun = {
 
 	Pets = {
 		["Auto Feed"] = true,
-		["Start Delete Pet At"] = 40,
+		["Start Delete Pet At"] = 50,
 		Unfavorite_AllPet = false,
 		Favorite_LockedPet = true,
 		["Upgrade Slot"] = {
