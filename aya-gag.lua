@@ -249,7 +249,7 @@ getgenv().ConfigsKaitun = {
 				["Sunny-Side Chicken"] = { 1, 75 ,1 , true},
 				["Seal"] = { 1, 75 ,1 , true},
 				["Rooster"] = { 1, 85 ,1 ,true},
-				["Lemon Lion"] = { 1, 60 ,1 ,true},
+				["Lemon Lion"] = { 1, 60 ,1},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
