@@ -267,6 +267,7 @@ getgenv().ConfigsKaitun = {
 				["Seal"] = { 1, 60 ,1 },
 				["Rooster"] = { 1, 45 ,1 },
 				["Lemon Lion"] = { 1, 60 ,1},
+				["Glimmering Sprite"] = { 1, 70 , 1},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
@@ -282,6 +283,7 @@ getgenv().ConfigsKaitun = {
 				["Seal"] = { 1, 100 ,1},
 				["Rooster"] = { 1, 85 ,1},
 				["Lemon Lion"] = { 1, 100 ,1},
+				["Glimmering Sprite"] = { 1, 70 , 1},
 			},
 		},
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
@@ -301,6 +303,7 @@ getgenv().ConfigsKaitun = {
 			"Lobster Thermidor",
 			"Brontosaurus",
 			"Golden Goose",
+			"Cockatrice"
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -384,6 +387,9 @@ getgenv().ConfigsKaitun = {
 			"Golem",
 			"Mandrake",
 			"Elk",
+			"Ladybug",
+			"Pixie",
+			"Imp",
 		}
 	},
 
@@ -410,7 +416,8 @@ getgenv().ConfigsKaitun = {
 				"Kitsune",
 				"Corrupted Kitsune",
 				"French Fry Ferret",
-				"Golden Goose"
+				"Golden Goose",
+				"Cockatrice"
 			},
 			Pet_Weight_Noti = true,
 		}
