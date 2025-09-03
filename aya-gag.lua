@@ -197,6 +197,9 @@ getgenv().ConfigsKaitun = {
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
+			"Paradise Egg", 
+			"Rare Summer Egg", 
+			"Common Summer Egg"
 		},
 		Craft = {
 			"Ancient Seed Pack",
@@ -268,6 +271,10 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Pets = {
+		MutationPet = {
+			["Sunny-Side Chicken"] = { "Glimmering","Rainbow" },
+			["Seal"] = { "Glimmering","Rainbow" }
+		},
 		["Auto Feed"] = true,
 		["Start Delete Pet At"] = 50,
 		Unfavorite_AllPet = false,
