@@ -182,9 +182,6 @@ getgenv().ConfigsKaitun = {
 			}
 		},
 		MaxMoney_Restocks = 100_000_000,
-		Restocks_When_Come = { -- will restock when Sprout Egg come on shop
-			"Sprout Egg",
-		},
 		Shop = { -- delete -- to buy
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
@@ -333,7 +330,8 @@ getgenv().ConfigsKaitun = {
 			"Lobster Thermidor",
 			"Brontosaurus",
 			"Golden Goose",
-			"Cockatrice"
+			"Cockatrice",
+			"Phoenix"
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -447,7 +445,8 @@ getgenv().ConfigsKaitun = {
 				"Corrupted Kitsune",
 				"French Fry Ferret",
 				"Golden Goose",
-				"Cockatrice"
+				"Cockatrice",
+				"Phoenix"
 			},
 			Pet_Weight_Noti = true,
 		}
