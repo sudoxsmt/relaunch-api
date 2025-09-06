@@ -183,6 +183,7 @@ getgenv().ConfigsKaitun = {
 		},
 		MaxMoney_Restocks = 100_000_000,
 		Shop = { -- delete -- to buy
+			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
