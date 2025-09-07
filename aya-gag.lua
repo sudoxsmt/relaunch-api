@@ -159,7 +159,7 @@ getgenv().ConfigsKaitun = {
 
 	Events = {
 		["Fairy Event"] = {
-			Minimum_Money = 5_000_000, -- minimum money to start play this event
+			Minimum_Money = 10_000_000, -- minimum money to start play this event
 			Rewards_Item = {
 				"Pet Shard Glimmering",
 				"Enchanted Egg",
@@ -179,7 +179,7 @@ getgenv().ConfigsKaitun = {
 				Limit = {
 					["Glimmer Multiplier"] = 5, -- max 10
 					["Loose Fairy Spawn Amount"] = 10, -- max 10
-					["Fairy Event Duration"] = 10, -- max 10
+					["Fairy Event Duration"] = 5, -- max 10
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
 			}
