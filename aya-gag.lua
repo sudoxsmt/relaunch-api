@@ -422,6 +422,7 @@ getgenv().ConfigsKaitun = {
 			"Ladybug",
 			"Pixie",
 			"Imp",
+			"Glimmering Sprite"
 		}
 	},
 
