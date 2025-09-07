@@ -321,6 +321,8 @@ getgenv().ConfigsKaitun = {
 			"Phoenix",
 			["Glimmering Sprite"] = 2,
 			["Rooster"] = 2,
+			["Ostrich"] = 3,
+			["Seal"] = 2,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -361,7 +363,7 @@ getgenv().ConfigsKaitun = {
 			"Flamingo",
 			"Sea Turtle",
 			"Orangutan",
-			-- "Seal",
+			"Seal",
 			"Moon Cat",
 			"Hedgehog",
 			"Mole",
@@ -408,7 +410,8 @@ getgenv().ConfigsKaitun = {
 			"Pixie",
 			"Imp",
 			"Glimmering Sprite",
-			"Rooster"
+			"Rooster",
+			"Ostrich"
 		}
 	},
 
