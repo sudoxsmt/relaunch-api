@@ -51,6 +51,7 @@ getgenv().ConfigsKaitun = {
 			["Pepper"] = 2,
 			["Lightshoot"] = 2,
 			["Daffodil"] = 2,
+			["Sunbulb"] = 8,
 		}
 	},
 
