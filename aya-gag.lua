@@ -39,7 +39,6 @@ getgenv().ConfigsKaitun = {
 			["Mushroom"] = 2,
 			["Glowthorn"] = 2,
 			["Apple"] = 2,
-			["Sunbulb"] = 2,
 			["Orange Tulip"] = 2,
 			["Blueberry"] = 2,
 			["Coconut"] = 2,
