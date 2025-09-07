@@ -145,7 +145,7 @@ getgenv().ConfigsKaitun = {
 				"Moon Mango",
 				"Bone Blossom",
 				"Fossilight",
-				"Tomato",
+				"Strawberry",
 				"Mushroom"
 			}
 		}
@@ -226,6 +226,7 @@ getgenv().ConfigsKaitun = {
 			"Levelup Lollipop",
 			"Medium Treat",
 			"Medium Toy",
+			"Harvest Tool",
 		},
 		Lock = {
 			"Grandmaster Sprinkler",
