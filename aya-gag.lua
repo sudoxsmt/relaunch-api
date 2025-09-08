@@ -137,7 +137,7 @@ getgenv().ConfigsKaitun = {
 
 	["Seed Pack"] = {
 		Locked = {
-			"Enchanted Seed Pack",
+			["Enchanted Seed Packs"] = 5,
 		}
 	},
 
@@ -166,7 +166,8 @@ getgenv().ConfigsKaitun = {
 					["Fairy Event Duration"] = 10, -- max 10
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
-			}
+			},
+			Catch_Fairy_Before_Restock = 51, -- fr it 50 but to be sure i put 51
 		},
 		MaxMoney_Restocks = 100_000_000,
 		Shop = { -- delete -- to buy
@@ -174,6 +175,11 @@ getgenv().ConfigsKaitun = {
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
 			"Enchanted Seed Pack",
+			"Pixie Faern",
+			"Untold Bell",
+			"Luminous Sprite",
+			"Mutation Spray Luminous",
+			"Luminous Wand",
 			"Sprout Seed Pack",
 			"Sprout Egg",
 			"Silver Fertilizer",
