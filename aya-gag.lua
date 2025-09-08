@@ -411,7 +411,9 @@ getgenv().ConfigsKaitun = {
 			"Imp",
 			"Glimmering Sprite",
 			"Rooster",
-			"Ostrich"
+			"Ostrich",
+			"Cardinal",
+			"Shroomie"
 		}
 	},
 
