@@ -100,7 +100,7 @@ getgenv().ConfigsKaitun = {
 				"Corn",
 				"Pumpkin",
 				"Watermelon",
-				-- "Strawberry",
+				"Strawberry",
 				"Coconut",
 				-- "Mushroom",
 				"Glowthorn",
