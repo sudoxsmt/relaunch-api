@@ -167,6 +167,7 @@ getgenv().ConfigsKaitun = {
 					["Fairy Spawn Amount"] = 9, -- max 9
 				}
 			},
+			Minimum_Fairy_Point_Restock = 10000, -- if fairy point more then this will restock
 			Catch_Fairy_Before_Restock = 51, -- fr it 50 but to be sure i put 51
 		},
 		MaxMoney_Restocks = 100_000_000,
