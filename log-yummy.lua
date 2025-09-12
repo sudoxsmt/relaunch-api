@@ -21,4 +21,12 @@ if game.PlaceId == gagId then
 		Note = getgenv().Note, 
   } 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/gag"))()
+elseif isAllowedPlace(game.PlaceId, bfList) then
+task.wait(15)
+  _G.Config = { 
+		UserID = getgenv().UserID , 
+		discord_id = getgenv().DiscordId , 
+		Note = getgenv().Note, 
+  } 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/main/trackstatblox"))()
 end
