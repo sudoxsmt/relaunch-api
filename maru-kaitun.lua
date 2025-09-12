@@ -2,11 +2,7 @@ repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-    _G.WebHook = {
-        ["Enabled"] = true, -- เปิดการใช้งาน
-        ["Url"] = "", -- ลิ้งค์เว็บฮุก
-        ["Delay"] = 60 -- วินาที
-    }
+    _G.Team = "Pirate" -- Marine / Pirate
     _G.MainSettings = {
             ["EnabledHOP"] = true, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
             ['FPSBOOST'] = true, -- ภาพกาก
@@ -78,16 +74,16 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
     }
     _G.SwordSettings = { -- ดาบที่จะทำ
         ['Saber'] = true,
-        ["Pole"] = true,
-        ['MidnightBlade'] = true,
+        ["Pole"] = false,
+        ['MidnightBlade'] = false,
         ['Shisui'] = true,
         ['Saddi'] = true,
-        ['Wando'] = true,
+        ['Wando'] = false,
         ['Yama'] = true,
-        ['Rengoku'] = true,
-        ['Canvander'] = true,
-        ['BuddySword'] = true,
-        ['TwinHooks'] = true,
+        ['Rengoku'] = false,
+        ['Canvander'] = false,
+        ['BuddySword'] = false,
+        ['TwinHooks'] = false,
         ['HallowScryte'] = true,
         ['TrueTripleKatana'] = true,
         ['CursedDualKatana'] = true
@@ -97,9 +93,12 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
         ['FarmAfterMoney'] = 20000000
     }
     _G.GunSettings = { -- ปืนที่จะทำ
-        ['Kabucha'] = true,
-        ['SerpentBow'] = true,
+        ['Kabucha'] = false,
+        ['SerpentBow'] = false,
         ['SoulGuitar'] = true
+    }
+    _G.Hop_Settings = {
+        ["Find Tushita"] = false
     }
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
