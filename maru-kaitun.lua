@@ -21,7 +21,8 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
                 [6] = "T-Rex-T-Rex",
                 [7] = "Buddha-Buddha",
                 [8] = "Yeti-Yeti",
-                [9] = "Gas-Gas"
+                [9] = "Gas-Gas",
+                [10] = "Gravity-Gravity"
             }
         }
     _G.Fruits_Settings = { -- ตั้งค่าผล
