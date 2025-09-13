@@ -342,6 +342,7 @@ getgenv().ConfigsKaitun = {
 			["Rooster"] = 2,
 			["Ostrich"] = 3,
 			["Seal"] = 2,
+			["Hotdog Daschund"] = 1,
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -434,7 +435,9 @@ getgenv().ConfigsKaitun = {
 			"Cardinal",
 			"Shroomie",
 			"Robin",
-			"Badger"
+			"Badger",
+			"Grizzly Bear",
+			"Hotdog Daschund"
 		}
 	},
 
