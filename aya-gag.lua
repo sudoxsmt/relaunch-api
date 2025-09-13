@@ -294,6 +294,7 @@ getgenv().ConfigsKaitun = {
 				["Rooster"] = { 1, 45 ,1 },
 				["Lemon Lion"] = { 1, 60 ,1},
 				["Glimmering Sprite"] = { 1, 70 , 1},
+				["Grizzly Bear"] = { 1, 70 , 1},
 			},
 			["Limit Upgrade"] = 5,
 			["Equip When Done"] = {
@@ -310,6 +311,7 @@ getgenv().ConfigsKaitun = {
 				["Rooster"] = { 1, 85 ,1},
 				["Lemon Lion"] = { 1, 100 ,1},
 				["Glimmering Sprite"] = { 1, 70 , 1},
+				["Grizzly Bear"] = { 1, 70 , 1},
 			},
 		},
 		Locked_Pet_Age = 100, -- pet that age > 60 will lock
@@ -332,6 +334,7 @@ getgenv().ConfigsKaitun = {
 			"Cockatrice",
 			"Phoenix",
 			"Swan",
+			["Grizzly Bear"] = 2,
 			["Glimmering Sprite"] = 2,
 			["Rooster"] = 2,
 			["Ostrich"] = 3,
@@ -426,7 +429,9 @@ getgenv().ConfigsKaitun = {
 			"Rooster",
 			"Ostrich",
 			"Cardinal",
-			"Shroomie"
+			"Shroomie",
+			"Robin",
+			"Badger"
 		}
 	},
 
