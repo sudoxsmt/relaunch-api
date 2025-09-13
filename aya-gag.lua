@@ -20,7 +20,7 @@ getgenv().ConfigsKaitun = {
 			"Hinomai",
 			"Monoblooma",
 			"Princess Thorn",
-			["Serenity"] = 20,
+			["Serenity"] = 10,
 			["Ember Lily"] = 10,
 			["Sugar Apple"] = 10,
 			["Burning Bud"] = 10,
