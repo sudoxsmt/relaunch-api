@@ -11,14 +11,15 @@ getgenv().ConfigsKaitun = {
 
 	["Rejoin When Update"] = false,
 	["Limit Tree"] = {
-		["Limit"] = 160,
-		["Destroy Untill"] = 160,
+		["Limit"] = 200,
+		["Destroy Untill"] = 200,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
 			"Fossilight",
 			"Hinomai",
 			"Monoblooma",
+			"Princess Thorn",
 			["Serenity"] = 20,
 			["Ember Lily"] = 10,
 			["Sugar Apple"] = 10,
@@ -43,10 +44,12 @@ getgenv().ConfigsKaitun = {
 			["Blueberry"] = 3,
 			["Cacao"] = 3,
 			["Grape"] = 3,
-			["Dragon Fruit"] = 3,
+			["Dragon Fruit"] = 12,
+			["Blueberry"] = 12,
+			["Blueberry"] = 12,
 			["Bamboo "] = 4,
 			["Cactus"] = 3,
-			["Mango"] = 3,
+			["Mango"] = 12,
 			["Pepper"] = 3,
 			["Lightshoot"] = 3,
 			["Daffodil"] = 3,
@@ -82,7 +85,7 @@ getgenv().ConfigsKaitun = {
 			}
 		},
 		Place = {
-			Mode = "Select", -- Select , Lock
+			Mode = "Lock", -- Select , Lock
 			Select = {
 				"Carrot",
 				"Bamboo",
