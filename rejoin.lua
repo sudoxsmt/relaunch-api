@@ -89,7 +89,7 @@ if game.PlaceId == targetPlaceId then
 
     -- Continue your main script logic below here
     print("Game is ready. Starting script...")
-elseif
+else
     print("Game is ready. Starting script...")
 end
 
