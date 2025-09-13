@@ -93,19 +93,19 @@ else
     print("Game is ready. Starting script...")
 end
 
-if not game:IsLoaded() then
-    task.delay(60, function()
-        if NoShutdown then return end
-        if not game:IsLoaded() then
-            return game:Shutdown()
-        end
-        local Code = game:GetService'GuiService':GetErrorCode().Value
-        if Code >= Enum.ConnectionError.DisconnectErrors.Value then
-            return game:Shutdown()
-        end
-    end)
-    game.Loaded:Wait()
-end
+-- if not game:IsLoaded() then
+--     task.delay(60, function()
+--         if NoShutdown then return end
+--         if not game:IsLoaded() then
+--             return game:Shutdown()
+--         end
+--         local Code = game:GetService'GuiService':GetErrorCode().Value
+--         if Code >= Enum.ConnectionError.DisconnectErrors.Value then
+--             return game:Shutdown()
+--         end
+--     end)
+--     game.Loaded:Wait()
+-- end
 
 local Request = (syn and syn.request) or request or (http and http.request) or http_request
 local username = game.Players.LocalPlayer.Name
