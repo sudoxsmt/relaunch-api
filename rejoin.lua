@@ -89,7 +89,10 @@ if game.PlaceId == targetPlaceId then
 
     -- Continue your main script logic below here
     print("Game is ready. Starting script...")
+elseif
+    print("Game is ready. Starting script...")
 end
+
 if not game:IsLoaded() then
     task.delay(60, function()
         if NoShutdown then return end
