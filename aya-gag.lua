@@ -142,6 +142,9 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
+		["Fall Event"] = {
+			Minimum_Money = 5_000_000, -- minimum money to start play this event
+		},
 		["Fairy Event"] = {
 			Minimum_Money = 5_000_000, -- minimum money to start play this event
 			Rewards_Item = {
@@ -328,6 +331,7 @@ getgenv().ConfigsKaitun = {
 			"Golden Goose",
 			"Cockatrice",
 			"Phoenix",
+			"Swan",
 			["Glimmering Sprite"] = 2,
 			["Rooster"] = 2,
 			["Ostrich"] = 3,
@@ -451,7 +455,8 @@ getgenv().ConfigsKaitun = {
 				"French Fry Ferret",
 				"Golden Goose",
 				"Cockatrice",
-				"Phoenix"
+				"Phoenix",
+				"Swan"
 			},
 			Pet_Weight_Noti = true,
 		}
