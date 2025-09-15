@@ -148,34 +148,6 @@ getgenv().ConfigsKaitun = {
 		["Fall Event"] = {
 			Minimum_Money = 5_000_000, -- minimum money to start play this event
 		},
-		["Fairy Event"] = {
-			Minimum_Money = 5_000_000, -- minimum money to start play this event
-			Rewards_Item = {
-				"Enchanted Egg",
-				"Enchanted Seed Pack",
-				"Pet Shard Glimmering",
-				"Mutation Spray Glimmering",
-				"FairyPoints",
-				"Fairy Targeter",
-			},
-			Upgrade = {
-				Mode = "Order", -- Order (mean will up on order), Chepest, Highest
-				Order = { -- top upgrade first, not put mean not upgrade
-					"Fairy Spawn Amount",
-					"Loose Fairy Spawn Amount",
-					"Glimmer Multiplier",
-					"Fairy Event Duration",
-				},
-				Limit = {
-					["Glimmer Multiplier"] = 5, -- max 10
-					["Loose Fairy Spawn Amount"] = 10, -- max 10
-					["Fairy Event Duration"] = 10, -- max 10
-					["Fairy Spawn Amount"] = 9, -- max 9
-				}
-			},
-			Minimum_Fairy_Point_Restock = 10000, -- if fairy point more then this will restock
-			Catch_Fairy_Before_Restock = 51, -- fr it 50 but to be sure i put 51
-		},
 		MaxMoney_Restocks = 100_000_000,
 		Shop = { -- delete -- to buy
 			"Fall Egg",
