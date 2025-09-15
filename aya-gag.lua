@@ -10,6 +10,15 @@ getgenv().ConfigsKaitun = {
 	["Auto Rejoin"] = false,
 
 	["Rejoin When Update"] = false,
+
+	Ascend = {
+		Enabled = false,
+		Max_Rebirth_Money = 1_000_000_000_000,
+		Shop = {
+			"Egg Capacity"
+		}
+	},
+
 	["Limit Tree"] = {
 		["Limit"] = 200,
 		["Destroy Untill"] = 200,
@@ -56,6 +65,7 @@ getgenv().ConfigsKaitun = {
 			["Sunbulb"] = 8,
 		}
 	},
+	
 
 	Seed = {
 		Buy = {
