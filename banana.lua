@@ -42,7 +42,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         },
         ["Auto Chat"] = {
             ["Enabled"] = true,
-            ["Text"] = "I love you BF",
+            ["Text"] = "บีเอฟไก่ตันดีเวรี่กู้ด",
         },
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
         ["Select Hop"] = { -- 70% will have it
