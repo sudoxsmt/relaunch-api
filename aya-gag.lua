@@ -161,6 +161,7 @@ getgenv().ConfigsKaitun = {
 		MaxMoney_Restocks = 100_000_000,
 		Shop = { -- delete -- to buy
 			"Fall Egg",
+			"Red Panda"
 			"Enchanted Chest",
 			"Pet Shard Glimmering",
 			"Enchanted Egg",
@@ -325,6 +326,7 @@ getgenv().ConfigsKaitun = {
 			["Ostrich"] = 3,
 			["Seal"] = 2,
 			["Hotdog Daschund"] = 1,
+			"Red Panda",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -450,7 +452,8 @@ getgenv().ConfigsKaitun = {
 				"Golden Goose",
 				"Cockatrice",
 				"Phoenix",
-				"Swan"
+				"Swan",
+				"Red Panda"
 			},
 			Pet_Weight_Noti = true,
 		}
