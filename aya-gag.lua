@@ -224,8 +224,8 @@ getgenv().ConfigsKaitun = {
 
 	Eggs = {
 		Place = {
+			"Rare Egg",
 			"Bug Egg",
-			"Fall Egg",
 			"Enchanted Egg",
 			"Zen Egg",
 			"Paradise Egg",
@@ -238,8 +238,8 @@ getgenv().ConfigsKaitun = {
 			"Bee Egg",
 			"Gourmet Egg",
 			"Mythical Egg",
+			"Fall Egg",
 			-- "Rare Summer Egg",
-			"Rare Egg",
 			-- "Common Egg",
 		},
 		Buy = {
