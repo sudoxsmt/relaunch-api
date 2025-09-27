@@ -155,27 +155,12 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
-		["Fall Event"] = {
-			Minimum_Money = 5_000_000, -- minimum money to start play this event
-		},
 		MaxMoney_Restocks = 100_000_000,
 		Shop = { -- delete -- to buy
-			"Fall Egg",
-			"Red Panda",
-			"Enchanted Chest",
-			"Pet Shard Glimmering",
-			"Enchanted Egg",
-			"Enchanted Seed Pack",
-			"Pixie Faern",
-			"Untold Bell",
-			"Luminous Sprite",
-			"Mutation Spray Luminous",
-			"Luminous Wand",
-			"Sprout Seed Pack",
-			"Sprout Egg",
-			"Silver Fertilizer",
-			"Skyroot Chest",
-			"Pet Shard GiantBean",
+			"Evo Beetroot I",
+			"Evo Blueberry I",
+			"Evo Pumpkin I",
+			"Evo Mushroom I",
 		},
 		["Traveling Shop"] = {
 			"Bee Egg",
