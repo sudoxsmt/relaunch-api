@@ -20,8 +20,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	["Limit Tree"] = {
-		["Limit"] = 200,
-		["Destroy Untill"] = 200,
+		["Limit"] = 400,
+		["Destroy Untill"] = 400,
 
 		["Safe Tree"] = {
 			"Moon Blossom",
@@ -63,6 +63,23 @@ getgenv().ConfigsKaitun = {
 			["Lightshoot"] = 3,
 			["Daffodil"] = 3,
 			["Sunbulb"] = 8,
+			-- for the event
+			["Evo Beetroot I"] = 20,
+			["Evo Blueberry I"] = 20,
+			["Evo Pumpkin I"] = 20,
+			["Evo Mushroom I"] = 20,
+			["Evo Beetroot II"] = 20,
+			["Evo Blueberry II"] = 20,
+			["Evo Pumpkin II"] = 20,
+			["Evo Mushroom II"] = 20,
+			["Evo Beetroot III"] = 20,
+			["Evo Blueberry III"] = 20,
+			["Evo Pumpkin III"] = 20,
+			["Evo Mushroom III"] = 20,
+			["Evo Beetroot IV"] = 20,
+			["Evo Blueberry IV"] = 20,
+			["Evo Pumpkin IV"] = 20,
+			["Evo Mushroom IV"] = 20,
 		}
 	},
 	
@@ -193,6 +210,7 @@ getgenv().ConfigsKaitun = {
 			"Medium Treat",
 			"Medium Toy",
 			"Harvest Tool",
+			"Watering Can"
 		},
 		Lock = {
 			"Grandmaster Sprinkler",
