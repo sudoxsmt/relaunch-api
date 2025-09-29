@@ -427,7 +427,7 @@ getgenv().ConfigsKaitun = {
 			"Badger",
 			"Grizzly Bear",
 			"Hotdog Daschund",
-			"Barn Owl"
+			"Barn Owl",
 			"Hummingbird",
 			"Iguana",
 			"Chimpanzee",
