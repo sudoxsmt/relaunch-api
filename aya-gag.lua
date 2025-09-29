@@ -331,6 +331,7 @@ getgenv().ConfigsKaitun = {
 			["Seal"] = 2,
 			["Hotdog Daschund"] = 1,
 			"Red Panda",
+			"Tiger",
 		},
 		LockPet_Weight = 7, -- if Weight >= 10 they will locked,
 		Instant_Sell = {		
@@ -427,6 +428,10 @@ getgenv().ConfigsKaitun = {
 			"Grizzly Bear",
 			"Hotdog Daschund",
 			"Barn Owl"
+			"Hummingbird",
+			"Iguana",
+			"Chimpanzee",
+			"Tree Frog"
 		}
 	},
 
@@ -456,7 +461,8 @@ getgenv().ConfigsKaitun = {
 				"Golden Goose",
 				"Cockatrice",
 				"Phoenix",
-				"Swan"
+				"Swan",
+				"Tiger",
 			},
 			Pet_Weight_Noti = true,
 		}
