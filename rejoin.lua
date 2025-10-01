@@ -183,15 +183,15 @@ local function setOffline()
 end
 
 -- spawn the heartbeat loop
-task.spawn(function()
-    while true do
-        IsGetKick = checkForError()
-        if not IsGetKick then
-            sendHeartbeat()
-        else
-            task.wait(10)
-            setOffline()
-        end
-        task.wait(60)
-    end
-end)
+-- task.spawn(function()
+--     while true do
+--         IsGetKick = checkForError()
+--         if not IsGetKick then
+--             sendHeartbeat()
+--         else
+--             task.wait(10)
+--             setOffline()
+--         end
+--         task.wait(60)
+--     end
+-- end)
