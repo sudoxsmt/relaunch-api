@@ -1,7 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
-task.wait(30)
 _G.Team = "Pirate" -- Marine / Pirate
 _G.MainSettings = {
     ["EnabledHOP"] = true, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
