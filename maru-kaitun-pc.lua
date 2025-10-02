@@ -1,7 +1,6 @@
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
-repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
     _G.Team = "Pirate" -- Marine / Pirate
     _G.MainSettings = {
             ["EnabledHOP"] = true, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
@@ -101,7 +100,7 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
     _G.Hop_Settings = {
         ["Find Tushita"] = false
     }
-(getgenv()).key = getgenv().MaruPcKey;
-(getgenv()).id = getgenv().MaruPcId;
+(getgenv()).key = getgenv().MaruPcKey
+(getgenv()).id = getgenv().MaruPcId
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
