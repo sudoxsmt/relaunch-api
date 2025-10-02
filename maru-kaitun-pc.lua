@@ -101,5 +101,7 @@ repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
     _G.Hop_Settings = {
         ["Find Tushita"] = false
     }
+(getgenv()).key = getgenv().MaruPcKey;
+(getgenv()).id = getgenv().MaruPcId;
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
