@@ -122,5 +122,7 @@ _G.Hop_Settings = {
 }
 getgenv().key = getgenv().MaruPcKey
 getgenv().id = getgenv().MaruPcId
+print(getgenv().key)
+print(getgenv().id)
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
