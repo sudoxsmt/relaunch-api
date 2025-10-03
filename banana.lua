@@ -2,7 +2,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
     getgenv().SettingFarm ={
         ["Hide UI"] = true,
         ["Reset Teleport"] = {
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             ["Delay Reset"] = 3,
             ["Item Dont Reset"] = {
                 ["Fruit"] = {
@@ -69,7 +69,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
             ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough"},
         },
-        ["Lock Fruit"] = {},
+        ["Lock Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough"},
         ["Webhook"] = {
             ["Enabled"] = false,
             ["WebhookUrl"] = "",
