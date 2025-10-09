@@ -5,7 +5,7 @@ _G.Team = "Pirate" -- Marine / Pirate
 _G.MainSettings = {
     ["EnabledHOP"] = true, -- เปิด HOP ( มันไม่มีอยู่ละใส่มาเท่ๆ )
     ["FPSBOOST"] = true, -- ภาพกาก
-    ["FPSLOCKAMOUNT"] = 60, -- จำนวน FPS
+    ["FPSLOCKAMOUNT"] = 15, -- จำนวน FPS
     ["WhiteScreen"] = false, -- จอขาว
     ["CloseUI"] = true, -- ปิด Ui
     ["NotifycationExPRemove"] = true, -- ลบ ExP ที่เด้งตอนฆ่ามอน
@@ -60,7 +60,8 @@ _G.Races_Settings = {
                 -- Select Races U want
                 ["Mink"] = true,
                 ["Fishman"] = true,
-                ["Skypiea"] = true
+                ["Skypiea"] = true,
+                ["Human"] = true
             },
             ["RerollsWhenFragments"] = 35000 -- Random Races When Your Fragments is >= Settings
         }
@@ -121,7 +122,5 @@ _G.Hop_Settings = {
 }
 getgenv().key = getgenv().MaruPcKey
 getgenv().id = getgenv().MaruPcId
-print(getgenv().key)
-print(getgenv().id)
 getgenv().Script_Mode = "Kaitun_Script"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
