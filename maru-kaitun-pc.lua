@@ -22,7 +22,12 @@ _G.MainSettings = {
         [7] = "Buddha-Buddha",
         [8] = "Yeti-Yeti",
         [9] = "Gas-Gas",
-        [10] = "Gravity-Gravity"
+        [10] = "Gravity-Gravity",
+        [11] = "Creation-Creation",
+        [12] = "Phoenix-Phoenix",
+        [13] = "Spirit-Spirit",
+        [14] = "Shadow-Shadow",
+        [15] = "Venom-Venom",
     }
 }
 _G.Fruits_Settings = {
