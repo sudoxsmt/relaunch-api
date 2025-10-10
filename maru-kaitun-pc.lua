@@ -10,7 +10,7 @@ _G.MainSettings = {
     ["CloseUI"] = true, -- ปิด Ui
     ["NotifycationExPRemove"] = true, -- ลบ ExP ที่เด้งตอนฆ่ามอน
     ["AFKCheck"] = 45, -- ถ้ายืนนิ่งเกินวิที่ตั้งมันจะรีเกม
-    ["LockFragments"] = 25000, -- ล็อคเงินม่วง
+    ["LockFragments"] = 15000, -- ล็อคเงินม่วง
     ["LockFruitsRaid"] = {
         -- ล็อคผลที่ไม่เอาไปลงดัน
         [1] = "Dough-Dough",
@@ -118,7 +118,7 @@ _G.GunSettings = {
     ["SoulGuitar"] = true
 }
 _G.Hop_Settings = {
-    ["Find Tushita"] = false
+    ["Find Tushita"] = true
 }
 getgenv().key = getgenv().MaruPcKey
 getgenv().id = getgenv().MaruPcId
