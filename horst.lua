@@ -9,10 +9,10 @@ local function isAllowedPlace(placeId, allowedList)
 	return false
 end
 
-local gagId = 79546208627805
+local nightId = {79546208627805 , 126509999114328}
 local bfList = {2753915549, 4442272183, 7449423635}
 
-if game.PlaceId == gagId then
+if isAllowedPlace(game.PlaceId, nightId) then
     getgenv().HorstConfig = {
         ["EnableLog"] = true,
         ["Whitescreen"] = false,

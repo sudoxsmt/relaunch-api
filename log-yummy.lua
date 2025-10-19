@@ -11,7 +11,7 @@ local function isAllowedPlace(placeId, allowedList)
 end
 
 local gagId = 126884695634066
-local nightId = 79546208627805
+local nightId = {79546208627805 , 126509999114328}
 local bfList = {2753915549, 4442272183, 7449423635}
 
 if game.PlaceId == gagId then
@@ -22,7 +22,7 @@ if game.PlaceId == gagId then
 		Note = getgenv().Note, 
   } 
   loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/gag"))()
-elseif game.PlaceId == nightId then
+elseif isAllowedPlace(game.PlaceId, nightId) then
 	task.wait(15)
 	_G.Config = { 
 			UserID = getgenv().UserID , 
