@@ -28,6 +28,7 @@ _G.MainSettings = {
         [13] = "Spirit-Spirit",
         [14] = "Shadow-Shadow",
         [15] = "Venom-Venom",
+        [16] = "Control-Control",
     }
 }
 _G.Fruits_Settings = {

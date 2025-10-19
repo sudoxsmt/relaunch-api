@@ -50,7 +50,7 @@ else
             ["BF"] = { 
                 ["MAIN"] = {
                     ["Level"] = 2800,
-                    ["Fragments"] = 40000, -- ถ้าต่ำกว่านี้จะไม่เปลี่ยนไอดีให้ until >=
+                    ["Fragments"] = 30000, -- ถ้าต่ำกว่านี้จะไม่เปลี่ยนไอดีให้ until >=
                     ["Full_Mastery_DF"] = false,
                     ["Full_Awake_DF"] = false,
                     ["Lever"] = false,
