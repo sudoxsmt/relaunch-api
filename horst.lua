@@ -26,7 +26,7 @@ if isAllowedPlace(game.PlaceId, nightId) then
             ["99_Nights"] = { 
                 ["Diamonds"] = {
                     ["Enable"] = true,
-                    ["Amount"] = 2000, 
+                    ["Amount"] = 1000, 
                 },
                 ["Class"] = {
                     ["Enable"] = false,
