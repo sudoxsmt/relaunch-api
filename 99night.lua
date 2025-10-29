@@ -13,12 +13,16 @@ getgenv().Configs = {
     -- การฟาร์ม ( Farm )
     LimitDay = 0, 
     MaxStrongholdLevel = 5, 
+    CountStronghold = 0, -- นับสตรองโฮลด์ครบแล้วให้เริ่มเกมใหม่
+    ClaimBadges = true, -- รับเหรียญทั้งหมดอัตโนมัติ
+    FarmCandy = true, -- ฟาร์มลูกอมอัตโนมัติ
 
     -- คลาส ( Class )
-    BuyClass = {"None"},
-    DoFirstTimeReroll = false,
-    AutoEquipClass = "None",
-    UpgradeClass = false,
+    BuyClass = {"None"}, -- ชื้อคลาส
+    DoFirstTimeReroll = false, -- รีร้านคลาสครั้งแรกฟรี ถ้าไม่มีคลาสที่ต้องการขาย
+    AutoEquipClass = "Gambler", -- เลือกใส่ Class
+    UpgradeClass = false, -- อัพเวลคลาสอัตโนมัติ (ไม่ได้ทำเควส แค่อัพเวลตอนมันพร้อมเท่านั้น)
+    HalloweenShop = {"Anything1", "Anything2"}, -- รายการชื้อของร้านฮาโลวีน
 
     -- Misc
     UI = true,
@@ -55,5 +59,6 @@ getgenv().GoogleSheetLog = {
     WebAppURL = "" -- ใส่ URL ของ Google Apps Script ที่เชื่อมต่อกับ Google Sheets ของคุณ
 }
 --==============================================--
+
 
 loadstring(game:HttpGet("https://gist.githubusercontent.com/Clehxb/a0512b13f2bcc539e037712e13572d14/raw/Night_Loader"))()
