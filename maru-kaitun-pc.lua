@@ -29,6 +29,7 @@ _G.MainSettings = {
         [14] = "Shadow-Shadow",
         [15] = "Venom-Venom",
         [16] = "Control-Control",
+        [17] = "Tiger-Tiger"
     }
 }
 _G.Fruits_Settings = {

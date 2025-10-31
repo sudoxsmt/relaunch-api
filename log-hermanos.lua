@@ -33,7 +33,7 @@ elseif isAllowedPlace(game.PlaceId, bfList) then
         ['Sword'] = {'Cursed Dual Katana', 'Shark Anchor'},
         ['Gun'] = {''},
         ['Accessories'] = {},
-        ['Fruit'] = {'Kitsune', 'Leopard', 'Dragon (West)', 'Gas', 'Yeti',  'Dough', 'Dragon (East)','Gravity'},
+        ['Fruit'] = {'Kitsune', 'Leopard', 'Dragon (West)', 'Gas', 'Yeti',  'Dough', 'Dragon (East)','Gravity','Tiger'},
     }
     task.spawn(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/hermanos-dev/hermanos-script/main/script.lua'))() end)
 end

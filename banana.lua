@@ -67,9 +67,9 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         },
         ["Sniper Fruit Shop"] = {
             ["Enabled"] = true, -- Auto Buy Fruit in Shop Mirage and Normal
-            ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough"},
+            ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough","Tiger-Tiger"},
         },
-        ["Lock Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough"},
+        ["Lock Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas","Dough-Dough","Tiger-Tiger"},
         ["Webhook"] = {
             ["Enabled"] = false,
             ["WebhookUrl"] = "",
