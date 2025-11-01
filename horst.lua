@@ -10,7 +10,7 @@ local function isAllowedPlace(placeId, allowedList)
 end
 
 local nightId = {79546208627805 , 126509999114328}
-local bfList = {2753915549, 4442272183, 7449423635}
+local bfList = {2753915549, 4442272183, 7449423635,79091703265657}
 
 if isAllowedPlace(game.PlaceId, nightId) then
     getgenv().HorstConfig = {

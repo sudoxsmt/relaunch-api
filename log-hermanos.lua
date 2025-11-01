@@ -12,7 +12,7 @@ local function isAllowedPlace(placeId, allowedList)
 end
 
 local gagId = 126884695634066
-local bfList = {2753915549, 4442272183, 7449423635}
+local bfList = {2753915549, 4442272183, 7449423635,79091703265657}
 
 if game.PlaceId == gagId then
     task.wait(10) -- ระยะเวลารอ ถ้าเปิดหลายจอเเนะนำให้ตั้งเป็น 20 วิ
