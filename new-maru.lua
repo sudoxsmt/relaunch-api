@@ -1,6 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
+_G.Team = "Pirate"
 _G.OneClickSettings = {
     ["LockFruits"] = {
         "Dough-Dough",
@@ -11,9 +12,9 @@ _G.OneClickSettings = {
         "T-Rex-T-Rex",
         "Buddha-Buddha",
         "Yeti-Yeti",
-        ["Gas-Gas",
+        "Gas-Gas",
         "Gravity-Gravity",
-        ["Creation-Creation",
+        "Creation-Creation",
         "Phoenix-Phoenix",
         "Spirit-Spirit",
         "Shadow-Shadow",
