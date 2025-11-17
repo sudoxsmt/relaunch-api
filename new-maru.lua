@@ -3,6 +3,7 @@ repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
 _G.Team = "Pirate"
 _G.OneClickSettings = {
+    ["MainIsFarmLevel"] = true, 
     ["LockFruits"] = {
         "Dough-Dough",
         "Dragon-Dragon",
