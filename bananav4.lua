@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 getgenv().ConfigV4 = {
     ["Account Up Gear"] = {
-        "Hilarypzhtw30610,
+        "Hilarypzhtw30610",
         "Robinafvivl51421",
         "Elliemkojn18748",
         "Tovadprse58612",
