@@ -37,6 +37,8 @@ _G.OneClickSettings = {
         "Magma-Magma"
     },
     ["FragmentsCap"] = 10000,
+    ["Upgrade Race"] = true,
+    ["Pull Lever"] = true,
     ["Farm Shark Anchor"] = true
 }
 getgenv().key = getgenv().MaruPcKey
