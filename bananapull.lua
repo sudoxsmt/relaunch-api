@@ -26,7 +26,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Skull Guitar"] = false,
             ["Mirror Fractal"] = false,
             ["Cursed Dual Katana"] = false,
-            ["Upgrade Race V2-V3"] = false,
+            ["Upgrade Race V2-V3"] = true,
             ["Auto Pull Lever"] = false,
             ["Shark Anchor"] = false, --- if have cdk,sg,godhuman
         },
@@ -47,8 +47,8 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
         ["Select Hop"] = { -- 70% will have it
             ["Hop Server If Have Player Near"] = false, 
-            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = false, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
+            ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
+            ["Hop Find Dough King Get Mirror Fractal"] = true,
             ["Hop Find Raids Castle [CDK]"] = false,
             ["Hop Find Cake Queen [CDK]"] = false,
             ["Hop Find Soul Reaper [CDK]"] = false,
