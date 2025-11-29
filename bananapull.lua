@@ -37,8 +37,8 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Gravity Blade"]  = false,
         },
         ["Farm Fragments"] = {
-            ["Enabled"]  = false,
-            ["Fragment"] = 50000,
+            ["Enabled"]  = true,
+            ["Fragment"] = 30000,
         },
         ["Auto Chat"] = {
             ["Enabled"] = false,
