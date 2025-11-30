@@ -63,7 +63,7 @@ getgenv().ConfigV4 = {
     ["Method Kick"] = {
         ["End Moon"] = true,
     },
-    ["Auto Join"] = true,
+    ["Auto Join"] = false,
     ["Auto Change Race"] = {
         ["Enabled"] = false,
         ["Race"] = {""} --- Human,Skypiea,Fishman,Mink
