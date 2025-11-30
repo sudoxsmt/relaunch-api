@@ -37,8 +37,8 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Gravity Blade"]  = false,
         },
         ["Farm Fragments"] = {
-            ["Enabled"]  = false,
-            ["Fragment"] = 50000,
+            ["Enabled"]  = true,
+            ["Fragment"] = 25000,
         },
         ["Auto Chat"] = {
             ["Enabled"] = true,
@@ -48,12 +48,12 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         ["Select Hop"] = { -- 70% will have it
             ["Hop Server If Have Player Near"] = false, 
             ["Hop Find Rip Indra Get Valkyrie Helm or Get Tushita"] = true, 
-            ["Hop Find Dough King Get Mirror Fractal"] = false,
+            ["Hop Find Dough King Get Mirror Fractal"] = true,
             ["Hop Find Raids Castle [CDK]"] = true,
             ["Hop Find Cake Queen [CDK]"] = true,
             ["Hop Find Soul Reaper [CDK]"] = true,
             ["Hop Find Darkbeard [SG]"] = true,
-            ["Hop Find Mirage [ Pull Lever ]"] = false,
+            ["Hop Find Mirage [ Pull Lever ]"] = true,
         },
         ["Farm Mastery"] = {
             ["Melee"] = true,
