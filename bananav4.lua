@@ -58,7 +58,10 @@ getgenv().ConfigV4 = {
     ["Account Help"] = {
       "adasiatrade",
       "DmercifulPie7",
-      "tX_20231216"
+      "tX_20231216",
+      "Pansyildzm99491",
+      "Marislsyck01475",
+      "Leighdavph11730",
     },
     ["Method Kick"] = {
         ["End Moon"] = true,
