@@ -9,9 +9,9 @@ getgenv().Configuration = {
         ['Eye Tachi'] = true, -- // ห้ามปิดบังคับต้องมี
      },
      Armor = {
-        ['Lightite Knight Chestplate'] = true,
-        ['Lightite Knight Leggings'] = true,
-        ['Lightite Knight Helmet'] = true,
+        ['Lightite Knight Chestplate'] = false,
+        ['Lightite Knight Leggings'] = false,
+        ['Lightite Knight Helmet'] = false,
      },
      Performance = {
         ['FPS Lock'] = {
