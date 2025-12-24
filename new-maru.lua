@@ -36,10 +36,11 @@ _G.OneClickSettings = {
         "Rumble-Rumble",
         "Magma-Magma"
     },
-    ["FragmentsCap"] = 10000,
+    ["FragmentsCap"] = 40000,
     ["Upgrade Race"] = true,
     ["Pull Lever"] = true,
-    ["Farm Shark Anchor"] = true
+    ["Farm Shark Anchor"] = true,
+    ["Cursed Dual Katana"] = true
 }
 getgenv().key = getgenv().MaruPcKey
 getgenv().id = getgenv().MaruPcId
