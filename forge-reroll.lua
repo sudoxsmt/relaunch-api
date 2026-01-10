@@ -9,7 +9,7 @@ getgenv().Configs = {
     },
     ["Settings"] = {
         ["Horsty"] = {
-            ["Enabled"] = false -- เปิดถ้าต้องการใช้คู้กับม้านะงับ ( ก็ควรใช้แหละ )
+            ["Enabled"] = true -- เปิดถ้าต้องการใช้คู้กับม้านะงับ ( ก็ควรใช้แหละ )
         },
         ["FpsCap"] = 15
     },
@@ -18,3 +18,4 @@ getgenv().Configs = {
 -- Made By Masterp & Ai
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/PRRoblox/main/masterp/the_forge_reroll.lua"))()
+
