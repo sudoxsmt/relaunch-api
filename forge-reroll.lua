@@ -1,8 +1,6 @@
 getgenv().Configs = {
     ["Race Priority"] ={
-        "Archangel",
-        "Angel",
-        "Demon"
+        "Archangel"
     },
     ["Codes"] = {
         "FORGWEEKEND!"
@@ -18,4 +16,5 @@ getgenv().Configs = {
 -- Made By Masterp & Ai
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Achitsak/PRRoblox/main/masterp/the_forge_reroll.lua"))()
+
 
