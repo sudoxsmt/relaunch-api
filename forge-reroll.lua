@@ -3,7 +3,7 @@ getgenv().Configs = {
         "Archangel"
     },
     ["Codes"] = {
-        "FORGWEEKEND!"
+        "FORGWEEKEND!","MAZE"
     },
     ["Settings"] = {
         ["Horsty"] = {
