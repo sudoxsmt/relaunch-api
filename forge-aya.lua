@@ -1,6 +1,6 @@
 getgenv().ConfigsKaitun = {
 	World3Farm = true,
-	BypassTp = true,
+	BypassTp = false,
 
 	Race = { "Demon", "Angel", "Archangel" }, -- reroll
 	Pickaxe = {
