@@ -6,11 +6,11 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Delay Reset"] = 3,
             ["Item Dont Reset"] = {
                 ["Fruit"] = {
-                    ["Enabled"] = false,
+                    ["Enabled"] = true,
                     ["All Fruit"] = true, 
                     ["Select Fruit"] = {
                         ["Enabled"] = true,
-                        ["Fruit"] = {"Dark-Dark","Magma-Magma"},
+                        ["Fruit"] = {"Dark-Dark","Light-Light"},
                     },
                 },
             },
@@ -23,7 +23,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
         ["Get Items"] = {
             ["Saber"] = true,
             ["Godhuman"] =  true,
-            ["Skull Guitar"] = true,
+            ["Skull Guitar"] = false,
             ["Mirror Fractal"] = true,
             ["Cursed Dual Katana"] = true,
             ["Upgrade Race V2-V3"] = true,
@@ -52,7 +52,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Hop Find Raids Castle [CDK]"] = true,
             ["Hop Find Cake Queen [CDK]"] = true,
             ["Hop Find Soul Reaper [CDK]"] = true,
-            ["Hop Find Darkbeard [SG]"] = true,
+            ["Hop Find Darkbeard [SG]"] = false,
             ["Hop Find Mirage [ Pull Lever ]"] = true,
         },
         ["Farm Mastery"] = {
@@ -60,7 +60,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
             ["Sword"] = true,
         },
         ["Buy Haki"] = {
-            ["Enhancement"] = true,
+            ["Enhancement"] = false,
             ["Skyjump"] = true,
             ["Flash Step"] = true,
             ["Observation"] = true,
