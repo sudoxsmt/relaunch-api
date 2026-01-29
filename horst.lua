@@ -59,6 +59,16 @@ else
                         ["Race"] = "Cyborg", -- ["Cyborg", "Ghoul", "Mink", "Fishman", "Skypiea", "Draco"]
                         ["Ability"] = "V3",
                         ["Tier"] = 10 -- ยังไม่ให้ใช้ เอามาประดับบารมีเฉยๆ
+                    },
+                    ["Inventory"] = { -- จะส่งไอเท็มาใน log + เช็คตอน DONE ถ้าไม่มีของ จะไม่ DONE
+                        ["Enable"] = false,
+                        ["Name"] = {
+                            "Kitsune-Kitsune",
+                        },
+                        ["Amount"] = { -- อย่าลืมใส่จำนวนให้ตรง
+                            1,
+                            1
+                        }
                     }
                 },
                 ["GOD"] = true,
