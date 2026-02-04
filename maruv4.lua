@@ -1,6 +1,6 @@
 _G.Settings_V4 = {
     ["LockTiers"] = 11, -- เตะตอนเทียร์เท่านั้นหรือมากกว่า ( ออโต้ปิด ระบบรีจอยในสคริปต์ ) ถ้าอยากปิด หรือตัวช่วย T10 ปรับเป็น11 / Kick when tier more than your settings ( If u not want to kick just set to 11 )
-    ["Lever"] = true, -- ออโต้ดึงคันโยก / Auto Pull Lever
+    ["Lever"] = false, -- ออโต้ดึงคันโยก / Auto Pull Lever
     ["InVIPServ"] = true, -- รีเซิฟให้ฟูลมูนรี / Crash when full moon end
     ["HelperNameList"] = { -- ตัวช่วยได้ 2 ตัว / Put the helper account name
         "adasiatrade",
